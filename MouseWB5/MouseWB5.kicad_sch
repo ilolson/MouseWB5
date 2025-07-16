@@ -12602,9 +12602,9 @@
 		(at 331.47 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4db4d71b-133e-4de8-b41f-5ac11b4e8731")
 		(property "Reference" "J10"
@@ -12625,7 +12625,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x09_P1.00mm_Vertical"
 			(at 331.47 181.61 0)
 			(effects
 				(font
@@ -13053,9 +13053,9 @@
 		(at 331.47 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "61476741-fcbf-4d47-9820-eb56be4a70d4")
 		(property "Reference" "J2"
@@ -13076,7 +13076,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x11_P1.00mm_Vertical"
 			(at 331.47 119.38 0)
 			(effects
 				(font
@@ -17248,9 +17248,9 @@
 		(at 331.47 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ba0c2ddd-640e-43fe-ad5d-0a153fff6213")
 		(property "Reference" "J3"
@@ -17271,7 +17271,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x09_P1.00mm_Vertical"
 			(at 331.47 149.86 0)
 			(effects
 				(font
