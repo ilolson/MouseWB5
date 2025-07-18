@@ -11990,7 +11990,7 @@
 	(symbol
 		(lib_name "VBUS_1")
 		(lib_id "power:VBUS")
-		(at 288.29 266.7 90)
+		(at 309.88 264.16 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11998,7 +11998,7 @@
 		(dnp no)
 		(uuid "3dda9eb0-16e0-4c68-af2f-2b7974e5baae")
 		(property "Reference" "#PWR067"
-			(at 292.1 266.7 0)
+			(at 309.88 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12007,7 +12007,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 283.8958 266.319 0)
+			(at 309.499 268.5542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12015,7 +12015,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 266.7 0)
+			(at 309.88 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12024,7 +12024,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 266.7 0)
+			(at 309.88 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12033,7 +12033,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 266.7 0)
+			(at 309.88 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15627,7 +15627,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 292.1 266.7 90)
+		(at 309.88 260.35 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15635,7 +15635,7 @@
 		(dnp no)
 		(uuid "99d9e4b8-11d3-4d36-9dd2-b83a243ef57a")
 		(property "Reference" "C1"
-			(at 290.9316 263.779 0)
+			(at 306.959 261.5184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15644,7 +15644,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 293.243 263.779 0)
+			(at 306.959 259.207 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15653,7 +15653,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 295.91 265.7348 0)
+			(at 308.9148 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15662,7 +15662,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 292.1 266.7 0)
+			(at 309.88 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15671,7 +15671,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 292.1 266.7 0)
+			(at 309.88 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15680,7 +15680,7 @@
 			)
 		)
 		(property "LCSC" "C408141"
-			(at 292.1 266.7 0)
+			(at 309.88 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17788,7 +17788,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 295.91 266.7 90)
+		(at 309.88 256.54 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17796,7 +17796,7 @@
 		(dnp no)
 		(uuid "bbd1d06e-3f7f-4c83-aee6-040407333cff")
 		(property "Reference" "#PWR068"
-			(at 302.26 266.7 0)
+			(at 309.88 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17805,7 +17805,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 297.18 270.51 0)
+			(at 313.69 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17813,7 +17813,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 295.91 266.7 0)
+			(at 309.88 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17822,7 +17822,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 295.91 266.7 0)
+			(at 309.88 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17831,7 +17831,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 295.91 266.7 0)
+			(at 309.88 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
