@@ -10348,7 +10348,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TXS0108ERGYR:IC_TXS0108ERGYR"
+		(property "Footprint" "TXS0108ERGYRslim:VQFN20_RKS_TEX"
 			(at 394.97 217.17 0)
 			(effects
 				(font
@@ -13153,7 +13153,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TXS0108ERGYR:IC_TXS0108ERGYR"
+		(property "Footprint" "TXS0108ERGYRslim:VQFN20_RKS_TEX"
 			(at 394.97 119.38 0)
 			(effects
 				(font
@@ -19135,7 +19135,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TXS0108ERGYR:IC_TXS0108ERGYR"
+		(property "Footprint" "TXS0108ERGYRslim:VQFN20_RKS_TEX"
 			(at 394.97 165.1 0)
 			(effects
 				(font

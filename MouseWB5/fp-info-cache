@@ -1,4 +1,4 @@
-25956474178164758
+25961733361466543
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96809,6 +96809,27 @@ IC_TXS0108ERGYR
 0
 25
 25
+TXS0108ERGYRslim
+VQFN20_RKS_TEX
+
+TXS0108ERKSR 
+0
+21
+21
+TXS0108ERGYRslim
+VQFN20_RKS_TEX-L
+
+TXS0108ERKSR 
+0
+21
+21
+TXS0108ERGYRslim
+VQFN20_RKS_TEX-M
+
+TXS0108ERKSR 
+0
+21
+21
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
