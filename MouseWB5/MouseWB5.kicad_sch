@@ -7240,7 +7240,7 @@
 		)
 		(uuid "2e879215-c990-427f-9621-d4fa471e6859")
 	)
-	(text_box "Inertial Measurement Unit"
+	(text_box "INERTIAL MEASUREMENT UNIT"
 		(exclude_from_sim no)
 		(at 100.33 140.97 0)
 		(size 57.15 50.8)
@@ -7320,7 +7320,7 @@
 		)
 		(uuid "945241d0-0f2f-4174-8070-55b946bea2e1")
 	)
-	(text_box "USB-C Connector"
+	(text_box "USB-C CONNECTOR"
 		(exclude_from_sim no)
 		(at 93.98 59.69 0)
 		(size 69.85 78.74)
@@ -7728,7 +7728,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 92.71) (xy 139.7 92.71)
+			(xy 139.7 92.71) (xy 149.86 92.71)
 		)
 		(stroke
 			(width 0)
@@ -8198,7 +8198,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 95.25) (xy 149.86 96.52)
+			(xy 149.86 92.71) (xy 149.86 93.98)
 		)
 		(stroke
 			(width 0)
@@ -8255,16 +8255,6 @@
 			(type default)
 		)
 		(uuid "89498a37-7af0-4686-9fb6-822a68df8400")
-	)
-	(wire
-		(pts
-			(xy 144.78 95.25) (xy 144.78 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b8175cf-f8f8-4481-b351-d3d4c107001e")
 	)
 	(wire
 		(pts
@@ -8605,16 +8595,6 @@
 			(type default)
 		)
 		(uuid "d8971e18-c25e-4678-994b-75eb06ff059f")
-	)
-	(wire
-		(pts
-			(xy 149.86 95.25) (xy 144.78 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da524dd7-a036-44d5-b4fc-5ccfffed65eb")
 	)
 	(wire
 		(pts
@@ -9338,7 +9318,7 @@
 	(symbol
 		(lib_name "GND_29")
 		(lib_id "power:GND")
-		(at 149.86 96.52 0)
+		(at 149.86 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9346,7 +9326,7 @@
 		(dnp no)
 		(uuid "0559e6cb-e1f6-4e49-b9ba-48eb4408c9e4")
 		(property "Reference" "#PWR02"
-			(at 149.86 102.87 0)
+			(at 149.86 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9355,7 +9335,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.86 100.33 0)
+			(at 149.86 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9363,7 +9343,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 96.52 0)
+			(at 149.86 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9372,7 +9352,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 96.52 0)
+			(at 149.86 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9381,7 +9361,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 96.52 0)
+			(at 149.86 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17292,72 +17272,6 @@
 		)
 	)
 	(symbol
-		(lib_name "+3V3_1")
-		(lib_id "power:+3V3")
-		(at 110.49 152.4 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ad0fdc07-0882-4dc6-a56c-dd2cd8e1afd6")
-		(property "Reference" "#PWR027"
-			(at 114.3 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 106.0958 152.019 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 110.49 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "220e933f-09dc-43da-8f04-f78594c78dca")
-		)
-		(instances
-			(project "MouseWB5"
-				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LED:WS2812B")
 		(at 132.08 261.62 0)
 		(unit 1)
@@ -18957,6 +18871,73 @@
 			(project "MouseWB5"
 				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
 					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 110.49 152.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d090bcb5-e9fe-4fa7-bb4a-2265bd8acdc1")
+		(property "Reference" "#PWR027"
+			(at 114.3 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 106.68 152.3999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 110.49 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fccce64f-5805-49ec-828e-24f139740ef0")
+		)
+		(instances
+			(project "MouseWB5"
+				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
