@@ -7522,9 +7522,9 @@
 		)
 		(uuid "e5fda228-9bac-4e5f-83ce-ec3db3770b41")
 	)
-	(text_box "R.PI SWD DEBUG CONNECTOR"
+	(text_box "DEBUG CONNECTOR"
 		(exclude_from_sim no)
-		(at 250.19 198.12 0)
+		(at 262.89 196.85 0)
 		(size 69.85 43.18)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -7940,16 +7940,6 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 220.98) (xy 280.67 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54203dca-0342-4222-8280-6b2e45a18e7e")
-	)
-	(wire
-		(pts
 			(xy 292.1 293.37) (xy 292.1 295.91)
 		)
 		(stroke
@@ -8230,6 +8220,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 204.47) (xy 193.04 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "813dfeb0-5dc2-41fe-9d00-396d1b890fba")
+	)
+	(wire
+		(pts
 			(xy 309.88 284.48) (xy 309.88 285.75)
 		)
 		(stroke
@@ -8287,16 +8287,6 @@
 			(type default)
 		)
 		(uuid "8b8175cf-f8f8-4481-b351-d3d4c107001e")
-	)
-	(wire
-		(pts
-			(xy 275.59 215.9) (xy 280.67 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d3f5a48-ec20-4ba8-b55f-e5c9ed5d4da5")
 	)
 	(wire
 		(pts
@@ -8497,16 +8487,6 @@
 			(type default)
 		)
 		(uuid "b48dc2f4-77d3-4ef3-86d6-bcce913004b0")
-	)
-	(wire
-		(pts
-			(xy 278.13 218.44) (xy 280.67 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc7d016f-7dd5-4e10-8243-ced9dc18d0cd")
 	)
 	(wire
 		(pts
@@ -8788,6 +8768,16 @@
 		)
 		(uuid "15532caf-0752-41df-865c-0c33a6a6e4cc")
 	)
+	(label "SWO"
+		(at 298.45 210.82 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d75a8a4-fe1d-4e11-b9ed-298e457be908")
+	)
 	(label "IMU_MISO"
 		(at 34.29 251.46 0)
 		(effects
@@ -8818,6 +8808,16 @@
 		)
 		(uuid "2c510051-9dae-4f8c-a581-bbe058bc0099")
 	)
+	(label "SWO"
+		(at 193.04 204.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "33310be5-4431-4ff1-a03d-af043ea527a2")
+	)
 	(label "L_EN"
 		(at 77.47 132.08 0)
 		(effects
@@ -8827,6 +8827,26 @@
 			(justify left bottom)
 		)
 		(uuid "37998aa8-57b0-44ce-8dd6-fb7f4785f9a3")
+	)
+	(label "RST"
+		(at 295.91 223.52 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3d11fe4b-875b-447d-8845-aa33085d686f")
+	)
+	(label "SWCLK"
+		(at 295.91 210.82 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4115803e-3bc4-46dc-ac9f-b89f0a6dc433")
 	)
 	(label "IMU_CS"
 		(at 34.29 266.7 0)
@@ -8878,6 +8898,16 @@
 		)
 		(uuid "67533ae3-2831-4249-a6dd-43cecbd4a7fc")
 	)
+	(label "SWDIO"
+		(at 293.37 210.82 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ca841b1-4a41-4174-87cd-a13a9c1cd626")
+	)
 	(label "LED_INPUT"
 		(at 31.75 373.38 0)
 		(effects
@@ -8907,16 +8937,6 @@
 			(justify left bottom)
 		)
 		(uuid "770a25b6-ee68-4f8a-95ca-410e972c0860")
-	)
-	(label "SWDIO"
-		(at 275.59 220.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7e651894-56c2-42b1-a094-548333131826")
 	)
 	(label "USB_D+"
 		(at 194.31 184.15 180)
@@ -9007,16 +9027,6 @@
 			(justify left bottom)
 		)
 		(uuid "ccf4e041-3135-4d20-9311-e594db1e6722")
-	)
-	(label "SWCLK"
-		(at 275.59 215.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d0ac3374-b8f4-4851-871e-edf63b224a16")
 	)
 	(label "L_PH_B"
 		(at 77.47 124.46 0)
@@ -10418,72 +10428,6 @@
 			(project "MouseWB5"
 				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
 					(reference "MR14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 278.13 218.44 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1b079e2e-d25a-4764-8b20-35b245e819c6")
-		(property "Reference" "#PWR069"
-			(at 271.78 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 275.336 217.424 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 278.13 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 278.13 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 278.13 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eedc36dd-2500-4fc0-ae42-22b6cdb17890")
-		)
-		(instances
-			(project "MouseWB5"
-				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
-					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -13317,6 +13261,73 @@
 			(project "MouseWB5"
 				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
 					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 298.45 223.52 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a114abb-1249-465b-93f6-3b7679423e57")
+		(property "Reference" "#PWR0107"
+			(at 298.45 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 298.45 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 298.45 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 298.45 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 298.45 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e951c681-a617-4173-bdcf-edf78395fed2")
+		)
+		(instances
+			(project "MouseWB5"
+				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -18611,6 +18622,72 @@
 			(project "MouseWB5"
 				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 293.37 223.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca760e97-cecc-45ad-bca1-29d38e77b36f")
+		(property "Reference" "#PWR0108"
+			(at 293.37 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 293.37 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 293.37 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 293.37 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 293.37 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05e1804b-4710-4bcb-9660-7c3eb929d43b")
+		)
+		(instances
+			(project "MouseWB5"
+				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
