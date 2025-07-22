@@ -8046,6 +8046,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 320.04) (xy 143.51 320.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b93d24b-9858-4a4d-a744-b690a0c27d09")
+	)
+	(wire
+		(pts
 			(xy 102.87 175.26) (xy 114.3 175.26)
 		)
 		(stroke
@@ -8106,6 +8116,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 307.34) (xy 148.59 312.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e74865d-11c5-420a-b8de-16a65937def8")
+	)
+	(wire
+		(pts
 			(xy 113.03 209.55) (xy 119.38 209.55)
 		)
 		(stroke
@@ -8153,6 +8173,16 @@
 			(type default)
 		)
 		(uuid "3b0e4d95-8942-41c2-ad08-3dceba7d688a")
+	)
+	(wire
+		(pts
+			(xy 148.59 322.58) (xy 148.59 327.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f51b5e4-c1d4-44d3-95de-8cce85c8613a")
 	)
 	(wire
 		(pts
@@ -9323,6 +9353,16 @@
 			(justify left bottom)
 		)
 		(uuid "770a25b6-ee68-4f8a-95ca-410e972c0860")
+	)
+	(label "FAN_CTRL"
+		(at 133.35 320.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ec69bfc-cb44-4f3a-88ec-ae1805a5c342")
 	)
 	(label "USB_D+"
 		(at 375.92 115.57 180)
