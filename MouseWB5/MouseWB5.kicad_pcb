@@ -335,18 +335,18 @@
 	(net 163 "unconnected-(J10-Pin_5-Pad5)")
 	(net 164 "unconnected-(Q1-Pad3)")
 	(net 165 "unconnected-(Q1-Pad2)")
-	(net 166 "unconnected-(Q1-Pad1)")
+	(net 166 "/FAN_CTRL")
 	(footprint "MountingHole:MountingHole_2.1mm"
 		(layer "F.Cu")
 		(uuid "02619822-2de5-4021-bed6-47f43c245e7e")
-		(at 142 128.5 90)
+		(at 140.25 127.5 90)
 		(descr "Mounting Hole 2.1mm, no annular")
 		(tags "mounting hole 2.1mm no annular")
 		(property "Reference" "H3"
 			(at 0 -3.2 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "0dbea865-a6f5-47f1-8594-e4674c18ede0")
+			(uuid "0be7f622-dfb7-452e-a9b0-291c79df6615")
 			(effects
 				(font
 					(size 1 1)
@@ -358,7 +358,7 @@
 			(at 0 3.2 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e8930364-c417-42ff-b809-74d1a15fbc2f")
+			(uuid "4d935c16-99e2-42c0-ac2a-8923dfefde97")
 			(effects
 				(font
 					(size 1 1)
@@ -371,7 +371,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4cdafead-97df-4887-a96c-0a78493c4545")
+			(uuid "33bdf52a-ee55-46b4-bbbf-d0bdc0c7d0e7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -384,7 +384,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bbb04d0c-43f1-4fef-93d4-109ab8fc215f")
+			(uuid "9cd9cd0e-6351-4066-8913-33840c9d0bd6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16130,7 +16130,7 @@
 			(at -0.95 1.1 270)
 			(size 1 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 166 "unconnected-(Q1-Pad1)")
+			(net 166 "/FAN_CTRL")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "9b9308dc-5cf6-4093-a4e7-c5969178586c")
@@ -25407,7 +25407,7 @@
 	(footprint "MountingHole:MountingHole_2.1mm"
 		(layer "F.Cu")
 		(uuid "f42a6c8f-a8cd-43e9-9780-e34ca44d0a7a")
-		(at 125 111.5 90)
+		(at 125.25 112.5 90)
 		(descr "Mounting Hole 2.1mm, no annular")
 		(tags "mounting hole 2.1mm no annular")
 		(property "Reference" "H2"
@@ -25718,7 +25718,7 @@
 		(uuid "3710aa74-445e-44e2-8092-7bb85526d087")
 	)
 	(gr_line
-		(start 143 127.5)
+		(start 143 129.5)
 		(end 143 121.25)
 		(stroke
 			(width 0.1)
@@ -26330,11 +26330,11 @@
 		(uuid "a3d4af47-590e-4f23-8773-9a3be6d4ac9b")
 	)
 	(gr_circle
-		(center 133.5 120)
-		(end 141.5 120)
+		(center 132.75 120)
+		(end 140.75 120)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
