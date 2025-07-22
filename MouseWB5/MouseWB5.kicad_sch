@@ -8936,6 +8936,16 @@
 	)
 	(wire
 		(pts
+			(xy 367.03 110.49) (xy 373.38 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c93984d8-afc6-49f7-a930-38d12cbaffe9")
+	)
+	(wire
+		(pts
 			(xy 144.78 165.1) (xy 153.67 165.1)
 		)
 		(stroke
@@ -10085,7 +10095,7 @@
 		(dnp no)
 		(uuid "0be06e8c-7671-4819-9075-314a7a95c884")
 		(property "Reference" "R4"
-			(at 172.466 212.09 90)
+			(at 171.45 212.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10464,6 +10474,72 @@
 			(project "MouseWB5"
 				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "VBUS_1")
+		(lib_id "power:VBUS")
+		(at 373.38 110.49 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10496003-f626-40e2-bcac-38900a9a82c0")
+		(property "Reference" "#PWR069"
+			(at 369.57 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 370.586 109.474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 373.38 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e19749a-a345-4cbf-bb39-eca8e3d5667c")
+		)
+		(instances
+			(project "MouseWB5"
+				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -12071,7 +12147,7 @@
 		(dnp no)
 		(uuid "368660e6-e1d0-49e1-8783-c33c476b680e")
 		(property "Reference" "R3"
-			(at 172.466 209.55 90)
+			(at 171.45 209.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
