@@ -7650,7 +7650,7 @@
 	)
 	(text_box "BATTERY / FAN CONNECTOR"
 		(exclude_from_sim no)
-		(at 13.97 384.81 0)
+		(at 203.2 215.9 0)
 		(size 67.31 21.59)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -8374,7 +8374,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 393.7) (xy 55.88 393.7)
+			(xy 245.11 224.79) (xy 243.84 224.79)
 		)
 		(stroke
 			(width 0)
@@ -8904,7 +8904,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 393.7) (xy 53.34 393.7)
+			(xy 240.03 224.79) (xy 241.3 224.79)
 		)
 		(stroke
 			(width 0)
@@ -9064,7 +9064,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 393.7) (xy 53.34 394.97)
+			(xy 241.3 224.79) (xy 241.3 226.06)
 		)
 		(stroke
 			(width 0)
@@ -9104,7 +9104,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 393.7) (xy 55.88 394.97)
+			(xy 243.84 224.79) (xy 243.84 226.06)
 		)
 		(stroke
 			(width 0)
@@ -14342,7 +14342,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 52.07 393.7 0)
+		(at 240.03 224.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14351,7 +14351,7 @@
 		(fields_autoplaced yes)
 		(uuid "64e45672-9721-4665-82f4-da65f265cf8a")
 		(property "Reference" "#PWR023"
-			(at 52.07 397.51 0)
+			(at 240.03 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14360,7 +14360,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 52.07 388.62 0)
+			(at 240.03 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14368,7 +14368,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 393.7 0)
+			(at 240.03 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14377,7 +14377,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 393.7 0)
+			(at 240.03 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14386,7 +14386,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 52.07 393.7 0)
+			(at 240.03 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16227,7 +16227,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 55.88 400.05 270)
+		(at 243.84 231.14 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16236,7 +16236,7 @@
 		(fields_autoplaced yes)
 		(uuid "98b0b006-b404-4e17-b0f8-c328c1058b75")
 		(property "Reference" "J9"
-			(at 57.15 398.1449 90)
+			(at 245.11 229.2349 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16245,7 +16245,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 57.15 400.6849 90)
+			(at 245.11 231.7749 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16254,7 +16254,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
-			(at 55.88 400.05 0)
+			(at 243.84 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16263,7 +16263,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 400.05 0)
+			(at 243.84 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16272,7 +16272,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 55.88 400.05 0)
+			(at 243.84 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17759,7 +17759,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 57.15 393.7 180)
+		(at 245.11 224.79 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17768,7 +17768,7 @@
 		(fields_autoplaced yes)
 		(uuid "b36f7a20-5ebb-4a32-9cae-05584da82564")
 		(property "Reference" "#PWR024"
-			(at 57.15 387.35 0)
+			(at 245.11 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17777,7 +17777,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 57.15 388.62 0)
+			(at 245.11 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17785,7 +17785,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 393.7 0)
+			(at 245.11 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17794,7 +17794,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 393.7 0)
+			(at 245.11 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17803,7 +17803,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.15 393.7 0)
+			(at 245.11 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18318,76 +18318,6 @@
 			(project "MouseWB5"
 				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
 					(reference "#PWR068")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 25.4 400.05 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bcdd4562-4bc1-4048-8109-5691d5595ded")
-		(property "Reference" "J8"
-			(at 26.67 398.1449 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 26.67 400.6849 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
-			(at 25.4 400.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 25.4 400.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 25.4 400.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9bab1a48-6969-4021-ae84-6583427a127b")
-		)
-		(pin "1"
-			(uuid "d4aadd2f-3d67-49b6-a82d-45d39a6afe55")
-		)
-		(instances
-			(project "MouseWB5"
-				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
-					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -20595,6 +20525,75 @@
 			(project "MouseWB5"
 				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
 					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 218.44 228.6 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3590b66-c4df-4a09-9678-48c47fde04ea")
+		(property "Reference" "M5"
+			(at 219.71 230.378 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 223.52 227.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical"
+			(at 218.44 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 218.44 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "65005e47-26db-4879-9603-0613a7d553eb")
+		)
+		(pin "1"
+			(uuid "c39ec7b1-085d-4d91-96d4-c06b690853a7")
+		)
+		(instances
+			(project "MouseWB5"
+				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
+					(reference "M5")
 					(unit 1)
 				)
 			)
