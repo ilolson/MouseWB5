@@ -19420,7 +19420,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2b4e454-f4f6-4572-9349-bb5035047987")
-		(property "Reference" "J11"
+		(property "Reference" "DBG1"
 			(at 135.89 34.2899 90)
 			(effects
 				(font
@@ -19486,7 +19486,7 @@
 		(instances
 			(project ""
 				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
-					(reference "J11")
+					(reference "DBG1")
 					(unit 1)
 				)
 			)
