@@ -14364,7 +14364,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5a114abb-1249-465b-93f6-3b7679423e57")
 		(property "Reference" "#PWR0107"
 			(at 129.54 48.26 0)
