@@ -8174,6 +8174,16 @@
 	)
 	(wire
 		(pts
+			(xy 320.04 85.09) (xy 325.12 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33ccf527-d968-401f-8092-89361e6b3478")
+	)
+	(wire
+		(pts
 			(xy 59.69 261.62) (xy 69.85 261.62)
 		)
 		(stroke
@@ -8664,7 +8674,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 85.09) (xy 325.12 85.09)
+			(xy 341.63 85.09) (xy 335.28 85.09)
 		)
 		(stroke
 			(width 0)
@@ -10382,7 +10392,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 325.12 90.17 90)
+		(at 330.2 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10391,25 +10401,23 @@
 		(fields_autoplaced yes)
 		(uuid "0f862b03-ea6b-4e4c-8556-d2a65063c462")
 		(property "Reference" "SW1"
-			(at 326.39 88.8999 90)
+			(at 330.2 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 326.39 91.4399 90)
+			(at 330.2 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS810"
-			(at 320.04 90.17 0)
+			(at 330.2 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10418,7 +10426,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 320.04 90.17 0)
+			(at 330.2 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10427,7 +10435,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 325.12 90.17 0)
+			(at 330.2 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19704,7 +19712,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 325.12 95.25 0)
+		(at 320.04 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19713,7 +19721,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6050176-fd5c-4cda-87d2-7ab501b4c330")
 		(property "Reference" "#PWR03"
-			(at 325.12 101.6 0)
+			(at 313.69 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19722,7 +19730,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 325.12 100.33 0)
+			(at 318.77 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19730,7 +19738,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 325.12 95.25 0)
+			(at 320.04 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19739,7 +19747,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 325.12 95.25 0)
+			(at 320.04 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19748,7 +19756,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 325.12 95.25 0)
+			(at 320.04 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
