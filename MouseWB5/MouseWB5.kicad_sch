@@ -6245,8 +6245,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -11.43 15.24 0)
+			(property "Reference" "U1"
+				(at 2.1433 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -6255,12 +6255,12 @@
 				)
 			)
 			(property "Value" "LSM6DSL"
-				(at -11.43 12.7 0)
+				(at 2.1433 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
 			(property "Footprint" "Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y"
@@ -6497,6 +6497,24 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -15.24 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8009,6 +8027,12 @@
 		(uuid "97c4547a-7c7f-4cbd-bb0f-67fa6dfb84ac")
 	)
 	(junction
+		(at 129.54 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af10aee6-3957-498a-a49b-be0e16f32c2a")
+	)
+	(junction
 		(at 139.7 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8966,6 +8990,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 185.42) (xy 132.08 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d63f129-805b-46ee-87eb-4ab2e1c9d664")
+	)
+	(wire
+		(pts
 			(xy 142.24 321.31) (xy 152.4 321.31)
 		)
 		(stroke
@@ -9146,6 +9180,16 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 161.29) (xy 341.63 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c52a8dee-5a55-4c10-a6f2-b4cc67048d64")
+	)
+	(wire
+		(pts
 			(xy 139.7 91.44) (xy 139.7 92.71)
 		)
 		(stroke
@@ -9173,16 +9217,6 @@
 			(type default)
 		)
 		(uuid "c80c4e22-f191-4233-a35c-c34d9d537506")
-	)
-	(wire
-		(pts
-			(xy 367.03 110.49) (xy 373.38 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c93984d8-afc6-49f7-a930-38d12cbaffe9")
 	)
 	(wire
 		(pts
@@ -9503,6 +9537,16 @@
 			(justify right bottom)
 		)
 		(uuid "3d11fe4b-875b-447d-8845-aa33085d686f")
+	)
+	(label "FAN_CTRL"
+		(at 331.47 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d1d1de0-23f6-4669-a88d-ab82ad3d4ddc")
 	)
 	(label "SWCLK"
 		(at 127 29.21 90)
@@ -10053,6 +10097,124 @@
 			(project "MouseWB5"
 				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
 					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Motion:LSM6DSL")
+		(at 129.54 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07cc18aa-0bc7-481b-b37a-1f5d324c1b44")
+		(property "Reference" "U5"
+			(at 133.096 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LSM6DS0"
+			(at 133.35 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y"
+			(at 119.38 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lsm6dsl.pdf"
+			(at 132.08 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "I2C/SPI, iNEMO inertial module: always-on 3D accelerometer and 3D gyroscope, 1.71V to 3.6V VCC"
+			(at 129.54 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2829074"
+			(at 129.54 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "726bf248-f0fb-4f86-be61-fdd9d28220b4")
+		)
+		(pin "13"
+			(uuid "0bef1d4e-ac69-499c-ad24-ec42ac60c6e6")
+		)
+		(pin "7"
+			(uuid "ef8ac595-bb89-4e83-bb47-e441c352e349")
+		)
+		(pin "10"
+			(uuid "f112ad8d-54be-48ae-a71c-3e3829d043eb")
+		)
+		(pin "6"
+			(uuid "a1764248-fced-4aca-a5a5-1bfaeee27e7e")
+		)
+		(pin "12"
+			(uuid "b8993006-800e-4815-bd6f-49b85d34e5f1")
+		)
+		(pin "1"
+			(uuid "ce50541d-4093-45d3-a9df-015e83cb87a6")
+		)
+		(pin "4"
+			(uuid "3657e8c3-e936-4ec6-acf5-414de733c267")
+		)
+		(pin "3"
+			(uuid "688712b0-d9f4-448e-87f7-f5c2033ebf6f")
+		)
+		(pin "5"
+			(uuid "2a9e8c23-531a-4a6a-af5d-80771c32a1ef")
+		)
+		(pin "2"
+			(uuid "faf9986f-8f12-4d07-a5ed-2683b5f393e7")
+		)
+		(pin "11"
+			(uuid "ba919399-37d5-4dcb-9019-e68af03af34b")
+		)
+		(pin "14"
+			(uuid "7b57d12c-fad2-4735-8dd8-ba5cfd92c0b0")
+		)
+		(pin "9"
+			(uuid "40d949e3-72f0-4548-9c8f-717f10ea3f02")
+		)
+		(pin "7"
+			(uuid "2b3fdabd-3ee2-4f85-8c63-46d3d475f74e")
+		)
+		(instances
+			(project "MouseWB5"
+				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -10735,72 +10897,6 @@
 			(project "MouseWB5"
 				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "VBUS_1")
-		(lib_id "power:VBUS")
-		(at 373.38 110.49 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "10496003-f626-40e2-bcac-38900a9a82c0")
-		(property "Reference" "#PWR069"
-			(at 369.57 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 370.586 109.474 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 373.38 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 373.38 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 373.38 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7e19749a-a345-4cbf-bb39-eca8e3d5667c")
-		)
-		(instances
-			(project "MouseWB5"
-				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
-					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -16271,122 +16367,6 @@
 			(project "MouseWB5"
 				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Sensor_Motion:LSM6DSL")
-		(at 129.54 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94b97509-0641-47a3-988d-69d1a7e631d7")
-		(property "Reference" "U5"
-			(at 131.7341 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LSM6DSO"
-			(at 131.7341 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y"
-			(at 119.38 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lsm6dsl.pdf"
-			(at 132.08 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "I2C/SPI, iNEMO inertial module: always-on 3D accelerometer and 3D gyroscope, 1.71V to 3.6V VCC"
-			(at 129.54 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2829074"
-			(at 129.54 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "11"
-			(uuid "8177e68d-2ea5-4ab7-9871-070a5b931af7")
-		)
-		(pin "7"
-			(uuid "2193a0ee-533d-42e6-b028-cb62fca1f030")
-		)
-		(pin "12"
-			(uuid "2d20c8f6-d620-406d-83f0-99d5fbf41800")
-		)
-		(pin "2"
-			(uuid "d89a239a-70d0-4812-97eb-b8ea0756d7e8")
-		)
-		(pin "4"
-			(uuid "867cf914-9464-4f1f-a2b6-62e9bf1479d2")
-		)
-		(pin "3"
-			(uuid "c7ff0e34-f325-4fea-b96b-4f5c50268529")
-		)
-		(pin "8"
-			(uuid "678602f1-5e6e-4dc0-91c8-e8f1b5916c9e")
-		)
-		(pin "1"
-			(uuid "1893e2f9-f9fa-41d4-8bb8-e80ae0cb3048")
-		)
-		(pin "14"
-			(uuid "1f93f4cc-fe37-4b7f-beb8-81189333a6e3")
-		)
-		(pin "10"
-			(uuid "881f9cd7-33fd-43fc-a795-6edf01ca809b")
-		)
-		(pin "5"
-			(uuid "3446cad4-30a7-4c85-af9e-09266f43be8b")
-		)
-		(pin "13"
-			(uuid "4f402907-6fb5-4f07-8cc9-989d0c88187b")
-		)
-		(pin "6"
-			(uuid "278e3b6e-feb4-4afa-b556-6b3df15554ea")
-		)
-		(pin "9"
-			(uuid "9ec9623b-6e5c-4fa2-b9e4-0844064e0a3f")
-		)
-		(instances
-			(project "MouseWB5"
-				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
-					(reference "U5")
 					(unit 1)
 				)
 			)
