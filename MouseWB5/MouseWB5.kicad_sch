@@ -20532,7 +20532,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 218.44 228.6 90)
+		(at 152.4 337.82 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20541,7 +20541,7 @@
 		(dnp no)
 		(uuid "e3590b66-c4df-4a09-9678-48c47fde04ea")
 		(property "Reference" "M5"
-			(at 219.71 230.378 90)
+			(at 153.67 339.598 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20549,7 +20549,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 223.52 227.965 0)
+			(at 157.48 337.185 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20558,7 +20558,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical"
-			(at 218.44 228.6 0)
+			(at 152.4 337.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20567,7 +20567,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 218.44 228.6 0)
+			(at 152.4 337.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20576,7 +20576,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 218.44 228.6 0)
+			(at 152.4 337.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
