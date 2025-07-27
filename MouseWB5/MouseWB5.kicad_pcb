@@ -25982,6 +25982,17 @@
 		(uuid "b65819d1-2fac-4629-8466-c8f31aaa61c1")
 	)
 	(gr_line
+		(start 105.125 124.5)
+		(end 104.275 125.35)
+		(stroke
+			(width 0.8)
+			(type solid)
+		)
+		(layer "In1.Cu")
+		(net 76)
+		(uuid "899ec6ad-6db9-49a5-931a-5582ab47c198")
+	)
+	(gr_line
 		(start 149.75 135)
 		(end 149.75 130.75)
 		(stroke
