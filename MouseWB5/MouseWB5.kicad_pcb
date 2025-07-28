@@ -19962,7 +19962,7 @@
 			(roundrect_rratio 0.25)
 			(net 76 "GND")
 			(pinfunction "GND")
-			(pintype "passive")
+			(pintype "power_in")
 			(uuid "504920f8-96fd-438e-9860-5d6f39294ec5")
 		)
 		(pad "8" smd roundrect
