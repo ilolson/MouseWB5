@@ -8470,6 +8470,16 @@
 	)
 	(wire
 		(pts
+			(xy 367.03 148.59) (xy 377.19 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b3198db-c515-4fdf-bfc5-83d0cb72d1d6")
+	)
+	(wire
+		(pts
 			(xy 86.36 172.72) (xy 86.36 175.26)
 		)
 		(stroke
@@ -9160,16 +9170,6 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 161.29) (xy 341.63 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c52a8dee-5a55-4c10-a6f2-b4cc67048d64")
-	)
-	(wire
-		(pts
 			(xy 139.7 91.44) (xy 139.7 92.71)
 		)
 		(stroke
@@ -9207,6 +9207,16 @@
 			(type default)
 		)
 		(uuid "cb5fd3c4-3a91-4eb3-bc5d-ac16b8eb5946")
+	)
+	(wire
+		(pts
+			(xy 367.03 153.67) (xy 378.46 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cedeb1fc-0ddf-4d5d-b7ba-fa97dea4e881")
 	)
 	(wire
 		(pts
@@ -9518,16 +9528,6 @@
 		)
 		(uuid "3d11fe4b-875b-447d-8845-aa33085d686f")
 	)
-	(label "FAN_CTRL"
-		(at 331.47 161.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3d1d1de0-23f6-4669-a88d-ab82ad3d4ddc")
-	)
 	(label "SWCLK"
 		(at 127 29.21 90)
 		(effects
@@ -9537,6 +9537,16 @@
 			(justify left bottom)
 		)
 		(uuid "4115803e-3bc4-46dc-ac9f-b89f0a6dc433")
+	)
+	(label "FAN_CTRL"
+		(at 377.19 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4a9b8a52-1ac7-4885-993d-c23f3bdc26df")
 	)
 	(label "IMU_CS"
 		(at 102.87 177.8 0)
@@ -9657,6 +9667,16 @@
 			(justify right bottom)
 		)
 		(uuid "80a559fa-a854-4126-8446-14c965547ac8")
+	)
+	(label "LED_INPUT"
+		(at 378.46 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "837cceda-d17b-4d51-a26c-f948bdf8196c")
 	)
 	(label "IMU_INT1"
 		(at 153.67 162.56 180)
