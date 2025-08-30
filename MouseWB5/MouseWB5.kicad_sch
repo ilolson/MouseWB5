@@ -8025,6 +8025,12 @@
 		(uuid "d4045eeb-71c1-4061-afbf-322f82f1cbe6")
 	)
 	(junction
+		(at 339.09 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc96bcfa-0192-4a0b-8719-eb4cfc5cd4fe")
+	)
+	(junction
 		(at 353.06 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8640,6 +8646,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 85.09) (xy 335.28 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c310e5f-417a-4be7-b11f-6e90c374eeb5")
+	)
+	(wire
+		(pts
 			(xy 63.5 46.99) (xy 66.04 46.99)
 		)
 		(stroke
@@ -8870,7 +8886,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 85.09) (xy 335.28 85.09)
+			(xy 341.63 85.09) (xy 339.09 85.09)
 		)
 		(stroke
 			(width 0)
@@ -10450,72 +10466,6 @@
 			(project "MouseWB5"
 				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
 					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 520.7 336.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a64190f-5a5c-4e09-a91e-cae1c5acf3a2")
-		(property "Reference" "#PWR076"
-			(at 520.7 342.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 520.7 341.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 520.7 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 520.7 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 520.7 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "be6ba05c-b1bc-4d78-80ea-015e2dc2ec39")
-		)
-		(instances
-			(project "MouseWB5"
-				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
-					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -15686,6 +15636,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 339.09 81.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75d4f461-6644-4310-a271-f3f84b3e4cd2")
+		(property "Reference" "R11"
+			(at 339.09 81.026 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20k"
+			(at 336.804 81.026 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 340.868 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 339.09 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 339.09 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C105872"
+			(at 339.09 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75294b5b-1b89-4a62-9f5a-6601b328525f")
+		)
+		(pin "2"
+			(uuid "a4afeeb1-bff7-4c4f-a68a-4aab58026538")
+		)
+		(instances
+			(project "MouseWB5"
+				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+1V8")
 		(at 615.95 179.07 0)
 		(unit 1)
@@ -17271,72 +17297,6 @@
 			(project "MouseWB5"
 				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
 					(reference "LED6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 513.08 336.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a0e4ea6e-d07d-4c05-a07f-a7383f65d544")
-		(property "Reference" "#PWR074"
-			(at 513.08 342.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 513.08 341.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 513.08 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 513.08 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 513.08 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b1a9ed63-c2cd-4ecd-a49e-2cf58ad03ac9")
-		)
-		(instances
-			(project "MouseWB5"
-				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
-					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -19827,6 +19787,72 @@
 	)
 	(symbol
 		(lib_id "power:+1V8")
+		(at 320.04 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf5f4509-ae7e-4175-ad5e-090451e22cbb")
+		(property "Reference" "#PWR074"
+			(at 320.04 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 320.04 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 320.04 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.04 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 320.04 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd6e6461-7ddc-4bb7-af93-9b0ff29cb2c2")
+		)
+		(instances
+			(project "MouseWB5"
+				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
 		(at 110.49 152.4 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20172,82 +20198,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 516.89 336.55 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d2def2be-d15e-446d-b993-e696dc78aac8")
-		(property "Reference" "MR3"
-			(at 516.128 336.804 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5.1k"
-			(at 516.89 339.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 516.89 334.772 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 516.89 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 516.89 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C105872"
-			(at 516.89 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5752d86c-03a9-4b2b-a514-fccd6d584ce0")
-		)
-		(pin "2"
-			(uuid "24040b00-4432-4d8e-8cde-ba0220555a86")
-		)
-		(instances
-			(project "MouseWB5"
-				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
-					(reference "MR3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 132.08 269.24 0)
 		(unit 1)
@@ -20391,16 +20341,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 320.04 85.09 270)
+		(at 339.09 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d6050176-fd5c-4cda-87d2-7ab501b4c330")
 		(property "Reference" "#PWR03"
-			(at 313.69 85.09 0)
+			(at 345.44 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20409,15 +20358,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 318.77 81.28 90)
+			(at 339.344 75.438 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 320.04 85.09 0)
+			(at 339.09 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20426,7 +20376,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 320.04 85.09 0)
+			(at 339.09 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20435,7 +20385,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 320.04 85.09 0)
+			(at 339.09 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
