@@ -9948,16 +9948,6 @@
 		)
 		(uuid "0167c893-a0f6-42f1-aa72-5b3a28723f45")
 	)
-	(label "I2C3_SDA"
-		(at 110.49 214.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "05c7b2f1-31a4-4a3c-9b18-8a793c1ebd2c")
-	)
 	(label "L_PWM_B"
 		(at 332.74 102.87 0)
 		(effects
@@ -10027,16 +10017,6 @@
 			(justify left bottom)
 		)
 		(uuid "19ece6ed-b81b-4ded-a2e7-24eaa60153dc")
-	)
-	(label "I2C3_SCL"
-		(at 110.49 212.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1c5964a8-0cb5-493f-a4dc-8f5c73937aac")
 	)
 	(label "SWO"
 		(at 129.54 29.21 90)
@@ -10388,6 +10368,16 @@
 		)
 		(uuid "7fbc4415-d78b-406b-9adb-4f07f814647f")
 	)
+	(label "I2C3_SDA"
+		(at 110.49 212.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "807bf66f-ab3f-4b4a-a77f-e1feca856aad")
+	)
 	(label "USB_D+"
 		(at 375.92 115.57 180)
 		(effects
@@ -10488,16 +10478,6 @@
 		)
 		(uuid "8fa843a2-beea-4f30-a35f-d8c4a83fbfd0")
 	)
-	(label "I2C1_SCL"
-		(at 68.58 212.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9cd3c75b-f9cb-4a1f-a3e9-c770e6b7fa77")
-	)
 	(label "SPI2_MISO"
 		(at 331.47 158.75 0)
 		(effects
@@ -10507,16 +10487,6 @@
 			(justify left bottom)
 		)
 		(uuid "a128dd11-55eb-472f-a196-790a7d3e9a82")
-	)
-	(label "I2C1_SDA"
-		(at 68.58 214.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a4524f03-d256-4eae-b638-6f74e683f1ee")
 	)
 	(label "SENSE_RF"
 		(at 25.4 57.15 0)
@@ -10567,6 +10537,16 @@
 			(justify left bottom)
 		)
 		(uuid "b0791944-d01e-46ad-8855-71868234c9cc")
+	)
+	(label "I2C1_SCL"
+		(at 68.58 214.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b8556e5f-e194-4ab0-ab23-a1d850aab05a")
 	)
 	(label "IMU_CS"
 		(at 374.65 95.25 180)
@@ -10767,6 +10747,26 @@
 			(justify right bottom)
 		)
 		(uuid "ef2a8599-8177-4d43-92cd-5fd7a0614f3a")
+	)
+	(label "I2C3_SCL"
+		(at 110.49 214.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1b72cb4-3e78-4cd6-9b95-a736c6dbdb0d")
+	)
+	(label "I2C1_SDA"
+		(at 68.58 212.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7214b8b-e3be-4bc5-b6ec-c1d82a47ceac")
 	)
 	(label "USB_D-"
 		(at 151.13 118.11 270)
