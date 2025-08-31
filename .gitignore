@@ -1,0 +1,52 @@
+# --- KiCad: per-user state (do NOT commit) ---
+*.kicad_prl
+
+# --- Auto-saves & backups ---
+*-autosave.kicad_pcb
+*-autosave.kicad_sch
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-bak
+*~
+backups/
+
+# --- Legacy (v5) artifacts ---
+*-cache.lib
+fp-info-cache
+
+# --- Generated fabrication/plot outputs ---
+# (Gerbers, drills, jobs, reports, positions, zip packs)
+*.gbr
+*.ger
+*.drl
+*.d356
+*.gbrjob
+*.map
+*.rpt
+*.pos
+*.zip
+
+# --- BOM / assembly exports ---
+*ibom.html
+*ibom.json
+*-bom.*
+*_bom.*
+
+# --- Netlists (usually regenerated) ---
+*.net
+
+# --- SPICE/Simulator outputs ---
+*.raw
+*.log
+*.plt
+*.cir.out
+
+# --- Autorouter (e.g., FreeRouting) ---
+*.dsn
+*.ses
+
+# --- Generic temp files ---
+*.tmp
+*.swp
+### Mac OS ###
+.DS_Store
