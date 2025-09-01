@@ -7644,6 +7644,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Designed By Isaac Olson "
+		(exclude_from_sim no)
+		(at 557.022 384.048 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "826a7340-1e06-4153-aa8a-b1068e9e003a")
+	)
 	(text_box "ALIGNMENT RESISTORS / FAN MOUNT"
 		(exclude_from_sim no)
 		(at 486.41 318.77 0)
