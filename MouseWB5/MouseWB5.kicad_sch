@@ -8688,7 +8688,7 @@
 	)
 	(wire
 		(pts
-			(xy 407.67 245.11) (xy 416.56 245.11)
+			(xy 403.86 245.11) (xy 416.56 245.11)
 		)
 		(stroke
 			(width 0)
@@ -9308,7 +9308,7 @@
 	)
 	(wire
 		(pts
-			(xy 407.67 257.81) (xy 416.56 257.81)
+			(xy 403.86 257.81) (xy 416.56 257.81)
 		)
 		(stroke
 			(width 0)
@@ -12548,6 +12548,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 403.86 248.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1aaf3066-1aa1-47c5-81f8-df0d848726b3")
+		(property "Reference" "R16"
+			(at 406.4 247.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330mO"
+			(at 406.4 250.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 402.082 248.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 403.86 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 403.86 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7467250"
+			(at 403.86 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6064330-a378-488b-be68-2457a4269ba0")
+		)
+		(pin "2"
+			(uuid "c25cd66c-fecb-481d-83bf-91a3341274bb")
+		)
+		(instances
+			(project "MouseWB5"
+				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+BATT")
 		(at 240.03 359.41 0)
 		(unit 1)
@@ -12827,6 +12906,85 @@
 			(project "MouseWB5"
 				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
 					(reference "MR16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 403.86 261.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22366c79-373d-4955-a48a-ca351d124e7a")
+		(property "Reference" "R17"
+			(at 406.4 260.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330mO"
+			(at 406.4 262.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 402.082 261.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 403.86 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 403.86 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7467250"
+			(at 403.86 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba9d6b31-9021-4614-92ad-a6c22322c892")
+		)
+		(pin "2"
+			(uuid "464791d5-fe0a-4834-a322-e7a50ce85d66")
+		)
+		(instances
+			(project "MouseWB5"
+				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -14076,6 +14234,71 @@
 			(project "MouseWB5"
 				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 403.86 252.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c43842a-d2d0-4a88-8a3d-0eac857a83ae")
+		(property "Reference" "#PWR038"
+			(at 403.86 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 400.558 253.492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 403.86 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 403.86 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 403.86 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "efefd70a-f26d-4b56-a2a0-d725e24a8f16")
+		)
+		(instances
+			(project "MouseWB5"
+				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -15522,6 +15745,72 @@
 			(project "MouseWB5"
 				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
 					(reference "LED3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 406.4 209.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5317e6f9-14f7-4e20-9aa0-5601200e3fdd")
+		(property "Reference" "#PWR035"
+			(at 406.4 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 406.4 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 406.4 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 406.4 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 406.4 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e3970d8-7797-427d-8977-48470199114f")
+		)
+		(instances
+			(project "MouseWB5"
+				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -17488,6 +17777,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 406.4 205.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "843fc0b1-fc01-4879-80c7-4b5b08bfd351")
+		(property "Reference" "R14"
+			(at 408.94 204.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330mO"
+			(at 408.94 207.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 404.622 205.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 406.4 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 406.4 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7467250"
+			(at 406.4 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42cd5d62-d039-4b4f-a757-7626b9f9ef0f")
+		)
+		(pin "2"
+			(uuid "bc735ecc-fec3-4252-a08c-50b0dec58b69")
+		)
+		(instances
+			(project ""
+				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+BATT")
 		(at 320.04 359.41 0)
 		(unit 1)
@@ -17885,6 +18253,85 @@
 			(project "MouseWB5"
 				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 406.4 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "950fb4aa-c4cc-4720-bcca-2105a9bcff46")
+		(property "Reference" "R15"
+			(at 408.94 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330mO"
+			(at 408.94 194.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 404.622 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 406.4 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 406.4 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7467250"
+			(at 406.4 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00766be2-04f1-4b4c-b66f-c9130448c969")
+		)
+		(pin "2"
+			(uuid "f8054c13-e41d-4770-bddf-0120ee03aab7")
+		)
+		(instances
+			(project "MouseWB5"
+				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -19964,6 +20411,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 403.86 265.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b92b5778-9836-4a52-a8e9-f978ddf43653")
+		(property "Reference" "#PWR076"
+			(at 403.86 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 403.86 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 403.86 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 403.86 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 403.86 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12c58ed9-3754-4d1f-b8b2-931b18ced945")
+		)
+		(instances
+			(project "MouseWB5"
+				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 551.18 353.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20114,6 +20627,71 @@
 			(project ""
 				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
 					(reference "I2C1_HEADER1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 406.4 196.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bbcd7861-e878-4f67-8b5c-f22c3f02ef13")
+		(property "Reference" "#PWR014"
+			(at 406.4 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 403.352 197.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 406.4 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 406.4 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 406.4 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2a5dd8c-7a16-48c4-b1e3-bbb2bfaea4e3")
+		)
+		(instances
+			(project "MouseWB5"
+				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
