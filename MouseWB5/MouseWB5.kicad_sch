@@ -7644,6 +7644,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "boot pull down\nR hiding here"
+		(exclude_from_sim no)
+		(at 515.62 345.694 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "35d4320e-77c6-48e3-88ae-6b4ac8ce5d4e")
+	)
 	(text "Designed By Isaac Olson "
 		(exclude_from_sim no)
 		(at 529.082 384.048 0)
@@ -8368,7 +8378,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 363.22) (xy 180.34 365.76)
+			(xy 180.34 363.22) (xy 180.34 364.49)
 		)
 		(stroke
 			(width 0)
@@ -8585,6 +8595,16 @@
 			(type default)
 		)
 		(uuid "3009f038-a15f-4ae2-afe8-3fe36b83f966")
+	)
+	(wire
+		(pts
+			(xy 180.34 372.11) (xy 180.34 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "314b00bb-3b1c-4a34-bcde-4e6cf360c498")
 	)
 	(wire
 		(pts
@@ -9218,7 +9238,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 360.68) (xy 190.5 365.76)
+			(xy 190.5 360.68) (xy 190.5 364.49)
 		)
 		(stroke
 			(width 0)
@@ -9795,6 +9815,16 @@
 			(type default)
 		)
 		(uuid "c5af5bf5-3eab-4665-a408-e55253330f7a")
+	)
+	(wire
+		(pts
+			(xy 190.5 372.11) (xy 190.5 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5c7b431-3b7a-42b8-b1f9-fb8e773ee906")
 	)
 	(wire
 		(pts
@@ -14729,7 +14759,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 180.34 369.57 90)
+		(at 180.34 368.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14738,7 +14768,7 @@
 		(fields_autoplaced yes)
 		(uuid "3ff0af2c-9fc7-433b-a183-8a5da43e5244")
 		(property "Reference" "D1"
-			(at 184.15 369.8874 90)
+			(at 184.15 368.6174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14747,7 +14777,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 184.15 372.4274 90)
+			(at 184.15 371.1574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14756,7 +14786,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 180.34 369.57 0)
+			(at 180.34 368.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14765,7 +14795,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 180.34 369.57 0)
+			(at 180.34 368.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14774,7 +14804,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 180.34 369.57 0)
+			(at 180.34 368.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16134,7 +16164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd13380f3.pdf"
+		(property "Datasheet" ""
 			(at 262.89 251.46 0)
 			(effects
 				(font
@@ -16144,8 +16174,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3.6A Id, 12V Vds, N-Channel MOSFET, 76mOhm Ron,max @ 4.5Vgs, 0.91nC Qg,typ @ 4.5Vgs, PicoStar 0.73x0.64mm max, 0.69x0.60mm nom"
+		(property "Description" ""
 			(at 306.07 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C669009"
+			(at 257.81 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18609,6 +18648,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C191023"
+			(at 252.73 232.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c90773b7-1f40-4fa6-b726-205523e59e1b")
 		)
@@ -19605,7 +19653,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 190.5 369.57 90)
+		(at 190.5 368.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19614,7 +19662,7 @@
 		(fields_autoplaced yes)
 		(uuid "a9748571-2424-4453-bdcd-79482d2e6a08")
 		(property "Reference" "D2"
-			(at 194.31 369.8874 90)
+			(at 194.31 368.6174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19623,7 +19671,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 194.31 372.4274 90)
+			(at 194.31 371.1574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19632,7 +19680,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 190.5 369.57 0)
+			(at 190.5 368.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19641,7 +19689,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 369.57 0)
+			(at 190.5 368.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19650,7 +19698,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 190.5 369.57 0)
+			(at 190.5 368.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
