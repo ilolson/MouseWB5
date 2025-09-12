@@ -11759,6 +11759,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C262929"
+			(at 236.22 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a0ebe075-d52c-4381-af37-320f91e7f3df")
 		)
@@ -12235,6 +12244,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C50176685"
+			(at 311.15 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "83048de6-e01d-4fe6-9df2-65db1516812d")
 		)
@@ -12546,7 +12564,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330mO"
+		(property "Value" "330mR"
 			(at 406.4 250.1899 0)
 			(effects
 				(font
@@ -12910,7 +12928,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330mO"
+		(property "Value" "330mR"
 			(at 406.4 262.8899 0)
 			(effects
 				(font
@@ -13156,6 +13174,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2876234"
+			(at 396.24 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "7874b2ca-cef1-4e76-8b1c-8e6cdd806074")
 		)
@@ -13233,6 +13260,15 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 414.02 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5349953"
 			(at 414.02 367.03 0)
 			(effects
 				(font
@@ -15709,6 +15745,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5349953"
+			(at 292.1 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "28029ba4-7ddc-476e-a921-c7266018052d")
 		)
@@ -17536,6 +17581,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5349953"
+			(at 265.43 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fe262898-a058-4783-b21d-0c140a1ae1fa")
 		)
@@ -17784,7 +17838,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330mO"
+		(property "Value" "330mR"
 			(at 408.94 207.0099 0)
 			(effects
 				(font
@@ -18030,6 +18084,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5349953"
+			(at 441.96 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b3211ed3-26e0-46ed-a7fe-972dfc6a8d67")
 		)
@@ -18266,7 +18329,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330mO"
+		(property "Value" "330mR"
 			(at 408.94 194.3099 0)
 			(effects
 				(font
@@ -18438,6 +18501,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 448.31 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C602037"
 			(at 448.31 175.26 0)
 			(effects
 				(font
@@ -18875,6 +18947,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C602037"
+			(at 448.31 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "16e09d12-ad5e-461e-80e9-43222b66cfbb")
 		)
@@ -19138,6 +19219,15 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 387.35 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5349953"
 			(at 387.35 367.03 0)
 			(effects
 				(font
@@ -20032,6 +20122,15 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 320.04 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5349953"
 			(at 320.04 367.03 0)
 			(effects
 				(font
@@ -22255,6 +22354,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5349953"
+			(at 361.95 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "afb866b5-0950-4604-b406-173abfd1c8cd")
 		)
@@ -23425,6 +23533,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5349953"
+			(at 240.03 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0cc5bb2e-1440-4eda-b30a-ed6c41b7cb10")
 		)
@@ -24321,6 +24438,15 @@
 			)
 		)
 		(property "Description" "500-mA Ultra-Low-Noise Low-IQ LDO, 3.3V, WSON-6"
+			(at 396.24 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C524780"
 			(at 396.24 67.31 0)
 			(effects
 				(font
