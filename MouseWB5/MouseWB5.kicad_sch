@@ -2913,7 +2913,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:BAT54J"
+		(symbol "Diode:1N5819WS"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2932,7 +2932,7 @@
 					)
 				)
 			)
-			(property "Value" "BAT54J"
+			(property "Value" "1N5819WS"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -2940,7 +2940,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_SOD-323F"
+			(property "Footprint" "Diode_SMD:D_SOD-323"
 				(at 0 -4.445 0)
 				(effects
 					(font
@@ -2949,7 +2949,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54J.pdf"
+			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2958,7 +2958,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "30V 200mA Schottky diode, SOD-323F"
+			(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2976,7 +2976,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "D*SOD?323F*"
+			(property "ki_fp_filters" "D*SOD?323*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2985,7 +2985,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BAT54J_0_1"
+			(symbol "1N5819WS_0_1"
 				(polyline
 					(pts
 						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
@@ -3023,7 +3023,7 @@
 					)
 				)
 			)
-			(symbol "BAT54J_1_1"
+			(symbol "1N5819WS_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -7876,8 +7876,8 @@
 	)
 	(text_box "FAN DRIVER"
 		(exclude_from_sim no)
-		(at 238.76 215.9 0)
-		(size 40.64 50.8)
+		(at 231.14 215.9 0)
+		(size 48.26 50.8)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -7935,10 +7935,10 @@
 		(uuid "f41eb252-9d0a-4ec4-8d5e-bcfe4b5645d6")
 	)
 	(junction
-		(at 252.73 247.65)
+		(at 251.46 247.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "02c83470-12f5-426d-9f83-627a8c142be5")
+		(uuid "0a4e7cf7-f853-49fb-8902-43ebdb1f7591")
 	)
 	(junction
 		(at 430.53 270.51)
@@ -9118,6 +9118,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 247.65) (xy 251.46 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73e02025-6d8a-4500-9721-d21e8385f9e6")
+	)
+	(wire
+		(pts
 			(xy 414.02 64.77) (xy 414.02 66.04)
 		)
 		(stroke
@@ -9155,6 +9165,16 @@
 			(type default)
 		)
 		(uuid "77776430-99b0-4ab2-87b4-7ca863686fe1")
+	)
+	(wire
+		(pts
+			(xy 251.46 247.65) (xy 252.73 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "780890e4-ec92-42ed-90fb-b441f67f99f9")
 	)
 	(wire
 		(pts
@@ -9528,16 +9548,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 247.65) (xy 252.73 247.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9dcb27a1-9941-4dff-a29c-8c994169e045")
-	)
-	(wire
-		(pts
 			(xy 266.7 226.06) (xy 266.7 231.14)
 		)
 		(stroke
@@ -9648,7 +9658,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 255.27) (xy 260.35 255.27)
+			(xy 251.46 255.27) (xy 260.35 255.27)
 		)
 		(stroke
 			(width 0)
@@ -9935,6 +9945,16 @@
 			(type default)
 		)
 		(uuid "d89d2005-ba6b-48fc-bb7d-e3d4f070b6ea")
+	)
+	(wire
+		(pts
+			(xy 233.68 247.65) (xy 242.57 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbb3bfc7-0215-4a14-89c3-41d5eeb48c4f")
 	)
 	(wire
 		(pts
@@ -11067,7 +11087,7 @@
 		(uuid "de7d58c7-e196-4e2d-82ab-56cba87e8e37")
 	)
 	(label "FAN_CTRL"
-		(at 242.57 247.65 0)
+		(at 233.68 247.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11649,76 +11669,6 @@
 			(project "MouseWB5"
 				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
 					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:BAT54J")
-		(at 252.73 232.41 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "08a1b7d8-46fc-4c00-8888-86ef76c24596")
-		(property "Reference" "D3"
-			(at 255.27 230.8224 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAT54J"
-			(at 255.27 233.3624 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323F"
-			(at 248.285 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54J.pdf"
-			(at 252.73 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "30V 200mA Schottky diode, SOD-323F"
-			(at 252.73 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3ccc020b-096c-49b5-a2c3-e0e804b96b07")
-		)
-		(pin "2"
-			(uuid "c6d53853-50ea-4c2c-9442-430dad7679a3")
-		)
-		(instances
-			(project ""
-				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
-					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -13692,7 +13642,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 252.73 251.46 180)
+		(at 251.46 251.46 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13700,7 +13650,7 @@
 		(dnp no)
 		(uuid "33d62ef1-6adf-4853-ae43-c723f84ddd27")
 		(property "Reference" "R9"
-			(at 252.73 251.206 90)
+			(at 251.46 251.206 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13708,7 +13658,7 @@
 			)
 		)
 		(property "Value" "20k"
-			(at 250.444 251.206 90)
+			(at 249.174 251.206 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13716,7 +13666,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 254.508 251.46 90)
+			(at 253.238 251.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13725,7 +13675,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 252.73 251.46 0)
+			(at 251.46 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13734,7 +13684,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 252.73 251.46 0)
+			(at 251.46 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13743,7 +13693,7 @@
 			)
 		)
 		(property "LCSC" "C105872"
-			(at 252.73 251.46 0)
+			(at 251.46 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16164,7 +16114,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CSD13380F3"
+		(property "Value" "MCC SI8810"
 			(at 264.16 248.9199 0)
 			(effects
 				(font
@@ -16173,7 +16123,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Texas_PicoStar_DFN-3_0.69x0.60mm"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 262.89 249.555 0)
 			(effects
 				(font
@@ -18599,6 +18549,76 @@
 			(project "MouseWB5"
 				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
 					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N5819WS")
+		(at 252.73 232.41 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98514283-0d2f-4651-805e-96d81ff1d2db")
+		(property "Reference" "D4"
+			(at 255.27 230.8224 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N5819WS"
+			(at 255.27 233.3624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 248.285 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
+			(at 252.73 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
+			(at 252.73 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c90773b7-1f40-4fa6-b726-205523e59e1b")
+		)
+		(pin "2"
+			(uuid "75b16036-31ab-4259-9d15-d1213e3a63e3")
+		)
+		(instances
+			(project ""
+				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -23919,6 +23939,82 @@
 			(project "MouseWB5"
 				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
 					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 246.38 247.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa2fa933-efd7-43df-9ac6-63a8b8d4b65a")
+		(property "Reference" "R18"
+			(at 245.618 247.904 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22r"
+			(at 246.38 244.856 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 246.38 245.872 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C105872"
+			(at 246.38 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3b83aa5-2c16-4db7-a154-6b1acc817fd3")
+		)
+		(pin "2"
+			(uuid "af05218a-e4dd-4cf0-a736-5d6097f7d579")
+		)
+		(instances
+			(project "MouseWB5"
+				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
+					(reference "R18")
 					(unit 1)
 				)
 			)
