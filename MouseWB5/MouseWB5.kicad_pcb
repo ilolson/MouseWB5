@@ -344,6 +344,18 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "50cf8af3-5a25-4cf2-a7cb-ff46f3f4a5d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/efc7f079-ae71-4b42-8a04-59cccc36c552")
 		(sheetname "/")
@@ -1090,6 +1102,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "19668c74-e477-44d9-9e5c-844e8f8178a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6aee8009-311a-4ed2-b375-79dba5376f23")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7394,6 +7418,18 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "78c8b479-7ac2-43c1-959e-ca3839a36970")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "*TC2030*")
 		(path "/d2b4e454-f4f6-4572-9349-bb5035047987")
 		(sheetname "/")
@@ -12618,6 +12654,18 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ea6b2c27-1cf1-4001-9d5f-494b6abcdd34")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/4db4d71b-133e-4de8-b41f-5ac11b4e8731")
 		(sheetname "/")
@@ -13170,6 +13218,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fbc40080-3524-497d-9cd7-5fd13c6178c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "10116b54-5ed5-47bf-b124-4622e2aed7e7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14155,6 +14215,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "56a301c1-d2b5-4646-98c8-0a193da99e67")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f15ff024-6433-4e8d-86e9-4929348195b2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30235,6 +30307,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "141e12c3-f39a-4386-81b1-fd41e7de9285")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9fdab4e0-8f5d-42c7-a4f2-e1d9c110c424")
 			(effects
 				(font
 					(size 1.27 1.27)
