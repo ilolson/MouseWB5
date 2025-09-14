@@ -20087,6 +20087,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C161690"
+			(at 328.93 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "682926ca-b49b-45b4-b1a6-6defa55b883d")
 		)
