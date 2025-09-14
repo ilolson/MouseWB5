@@ -12436,7 +12436,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C3646923"
+		(property "LCSC" "C130719"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22692,7 +22692,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C3646923"
+		(property "LCSC" "C130719"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23470,7 +23470,7 @@
 			(roundrect_rratio 0.25)
 			(net 40 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "504920f8-96fd-438e-9860-5d6f39294ec5")
 		)
 		(pad "8" smd roundrect

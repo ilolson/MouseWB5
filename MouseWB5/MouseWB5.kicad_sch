@@ -15601,7 +15601,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3646923"
+		(property "LCSC" "C130719"
 			(at 180.34 368.3 90)
 			(effects
 				(font
@@ -21445,7 +21445,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3646923"
+		(property "LCSC" "C130719"
 			(at 190.5 368.3 90)
 			(effects
 				(font
