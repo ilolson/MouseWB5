@@ -14152,7 +14152,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2168305"
+		(property "LCSC" "C1525"
 			(at 400.05 359.41 0)
 			(effects
 				(font
@@ -18667,7 +18667,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2168305"
+		(property "LCSC" "C1525"
 			(at 373.38 360.68 0)
 			(effects
 				(font
@@ -22173,7 +22173,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2168305"
+		(property "LCSC" "C1525"
 			(at 419.1 298.45 0)
 			(effects
 				(font
