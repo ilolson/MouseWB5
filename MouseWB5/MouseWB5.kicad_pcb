@@ -24009,7 +24009,7 @@
 			(roundrect_rratio 0.25)
 			(net 38 "GND")
 			(pinfunction "GND")
-			(pintype "passive")
+			(pintype "power_in")
 			(uuid "504920f8-96fd-438e-9860-5d6f39294ec5")
 		)
 		(pad "8" smd roundrect
@@ -34339,7 +34339,7 @@
 		)
 	)
 	(gr_text "CHARGE"
-		(at 111.75 120 180)
+		(at 115 120.6 0)
 		(layer "B.SilkS")
 		(uuid "2076b5fc-c4c1-4fed-ae6c-a50c17913b91")
 		(effects
@@ -34766,7 +34766,7 @@
 		)
 	)
 	(gr_text "3V3"
-		(at 114.75 115.975 180)
+		(at 116.2 116.6 0)
 		(layer "B.SilkS")
 		(uuid "2ed65521-2b54-4d1f-90b5-9e1103fc6f41")
 		(effects
@@ -34974,7 +34974,7 @@
 		)
 	)
 	(gr_text "1V8"
-		(at 111.875 123.6 180)
+		(at 113.4 124.4 0)
 		(layer "B.SilkS")
 		(uuid "ee3ecf8f-890c-4ad2-9a61-52fc30142e9a")
 		(effects
