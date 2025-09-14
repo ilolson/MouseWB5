@@ -8009,20 +8009,12 @@
 		(uuid "474e7a66-53e4-4993-b87d-761c992c2c79")
 	)
 	(no_connect
-		(at 163.83 306.07)
-		(uuid "4c6b0736-7df0-4d3f-8691-1ab613eead12")
-	)
-	(no_connect
 		(at 322.58 219.71)
 		(uuid "4d16e734-3ca1-4f03-8cda-0c66fb8dd03b")
 	)
 	(no_connect
 		(at 322.58 227.33)
 		(uuid "4dbeaee7-c0b5-48d1-8b7a-941774236763")
-	)
-	(no_connect
-		(at 205.74 300.99)
-		(uuid "4f7a62dd-0719-4f3a-b54c-4e14ed5070b7")
 	)
 	(no_connect
 		(at 322.58 217.17)
@@ -8039,10 +8031,6 @@
 	(no_connect
 		(at 322.58 240.03)
 		(uuid "5b9f869f-7fe9-4d7f-a8dc-d21504ba647f")
-	)
-	(no_connect
-		(at 247.65 300.99)
-		(uuid "5c9f58f7-ec05-4a32-91bd-28365c9fcf03")
 	)
 	(no_connect
 		(at 322.58 196.85)
@@ -18405,6 +18393,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 163.83 306.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d30dc5f-4d3f-4356-938d-e4455b60b26f")
+		(property "Reference" "#PWR0132"
+			(at 167.64 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 160.02 306.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 163.83 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abc27a0f-f477-4d09-af6e-191e4dd56e00")
+		)
+		(instances
+			(project "MouseWB5"
+				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
+					(reference "#PWR0132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 496.57 270.51 90)
 		(unit 1)
@@ -22550,6 +22605,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 205.74 300.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b67464c9-02fd-45f6-bdbe-b23447b924ee")
+		(property "Reference" "#PWR0130"
+			(at 209.55 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 201.93 300.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 205.74 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f66e6df9-edb4-46a2-ab2a-05db05fa2987")
+		)
+		(instances
+			(project "MouseWB5"
+				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
+					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 322.58 201.93 270)
 		(unit 1)
@@ -24619,6 +24741,73 @@
 			(project "MouseWB5"
 				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 247.65 300.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6add7fe-90e1-452a-813f-5a0fe8720237")
+		(property "Reference" "#PWR0131"
+			(at 251.46 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 243.84 300.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 247.65 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b541f6a-36e7-42dc-b427-653b652a7cca")
+		)
+		(instances
+			(project "MouseWB5"
+				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
