@@ -7644,7 +7644,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "boot pull down\nR hiding here"
+	(text "boot pull down\nR hiding here\non board"
 		(exclude_from_sim no)
 		(at 515.62 345.694 0)
 		(effects
