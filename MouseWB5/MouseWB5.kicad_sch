@@ -2615,180 +2615,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -7826,8 +7652,8 @@
 	)
 	(text_box "TAIL LIGHT ARRAY"
 		(exclude_from_sim no)
-		(at 203.2 345.44 0)
-		(size 261.62 43.18)
+		(at 109.22 349.25 0)
+		(size 326.39 43.18)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -7863,26 +7689,6 @@
 			(justify left top)
 		)
 		(uuid "cb456099-a56c-4db4-98ce-11e97fdaa335")
-	)
-	(text_box "INDICATOR LIGHTS"
-		(exclude_from_sim no)
-		(at 153.67 345.44 0)
-		(size 46.99 43.18)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "d82e40b5-3096-40f8-8a56-e5913f2ba283")
 	)
 	(text_box "FAN DRIVER"
 		(exclude_from_sim no)
@@ -8195,10 +8001,6 @@
 		(uuid "384c781e-cf85-4080-b55d-9a070b3ed3ff")
 	)
 	(no_connect
-		(at 449.58 367.03)
-		(uuid "43f60e53-5319-4c24-8946-9191ee195cc4")
-	)
-	(no_connect
 		(at 247.65 298.45)
 		(uuid "46b7d98b-3ff1-4630-8003-df7e1aa725cf")
 	)
@@ -8219,6 +8021,10 @@
 		(uuid "4dbeaee7-c0b5-48d1-8b7a-941774236763")
 	)
 	(no_connect
+		(at 205.74 300.99)
+		(uuid "4f7a62dd-0719-4f3a-b54c-4e14ed5070b7")
+	)
+	(no_connect
 		(at 322.58 217.17)
 		(uuid "5148b64e-275a-459e-8e23-18039e0c1b02")
 	)
@@ -8233,6 +8039,10 @@
 	(no_connect
 		(at 322.58 240.03)
 		(uuid "5b9f869f-7fe9-4d7f-a8dc-d21504ba647f")
+	)
+	(no_connect
+		(at 247.65 300.99)
+		(uuid "5c9f58f7-ec05-4a32-91bd-28365c9fcf03")
 	)
 	(no_connect
 		(at 322.58 196.85)
@@ -8263,14 +8073,6 @@
 		(uuid "9bd4774e-8300-451e-b41e-ec363178569b")
 	)
 	(no_connect
-		(at 205.74 295.91)
-		(uuid "b1ad6a75-d38f-4868-9368-47b6fa4b7156")
-	)
-	(no_connect
-		(at 247.65 295.91)
-		(uuid "ba168fcc-f65a-4507-a503-c3b58c925b22")
-	)
-	(no_connect
 		(at 406.4 69.85)
 		(uuid "bd15ad62-a079-43a5-b9d7-93bb8a058a6d")
 	)
@@ -8291,6 +8093,10 @@
 		(uuid "d7ea55a0-3346-4fb7-8c76-16e9d542a641")
 	)
 	(no_connect
+		(at 416.56 370.84)
+		(uuid "e1fd81fc-dfef-4335-912a-fdcc353021f7")
+	)
+	(no_connect
 		(at 163.83 303.53)
 		(uuid "ed7ee550-0371-4543-801a-2e09966940a6")
 	)
@@ -8303,16 +8109,6 @@
 			(type default)
 		)
 		(uuid "020347c7-22fa-46df-b776-07434f080353")
-	)
-	(wire
-		(pts
-			(xy 158.75 363.22) (xy 167.64 363.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "020e8dd3-2405-4135-b0ff-d8243cbb2020")
 	)
 	(wire
 		(pts
@@ -8436,16 +8232,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 363.22) (xy 180.34 364.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13d6282a-9e9e-4837-9113-45b90deede5b")
-	)
-	(wire
-		(pts
 			(xy 476.25 256.54) (xy 473.71 256.54)
 		)
 		(stroke
@@ -8483,16 +8269,6 @@
 			(type default)
 		)
 		(uuid "18821430-dc1c-4711-bd4e-537a22a3c07b")
-	)
-	(wire
-		(pts
-			(xy 175.26 363.22) (xy 180.34 363.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18b71422-5a1a-451c-8bc4-d15ef9cff781")
 	)
 	(wire
 		(pts
@@ -8696,16 +8472,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 372.11) (xy 180.34 373.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "314b00bb-3b1c-4a34-bcde-4e6cf360c498")
-	)
-	(wire
-		(pts
 			(xy 444.5 240.03) (xy 447.04 240.03)
 		)
 		(stroke
@@ -8736,7 +8502,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 367.03) (xy 257.81 367.03)
+			(xy 153.67 370.84) (xy 163.83 370.84)
 		)
 		(stroke
 			(width 0)
@@ -8753,6 +8519,16 @@
 			(type default)
 		)
 		(uuid "374f0cb6-aa91-47ce-8d66-a2851f38c59e")
+	)
+	(wire
+		(pts
+			(xy 388.62 370.84) (xy 401.32 370.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37b975ba-1f68-4181-90c8-5013fab4fb75")
 	)
 	(wire
 		(pts
@@ -9016,6 +8792,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 295.91) (xy 205.74 295.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "585a4068-a2b1-4901-a205-85733bb25fc8")
+	)
+	(wire
+		(pts
 			(xy 313.69 95.25) (xy 317.5 95.25)
 		)
 		(stroke
@@ -9266,7 +9052,7 @@
 	)
 	(wire
 		(pts
-			(xy 421.64 367.03) (xy 434.34 367.03)
+			(xy 327.66 370.84) (xy 340.36 370.84)
 		)
 		(stroke
 			(width 0)
@@ -9296,7 +9082,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 367.03) (xy 312.42 367.03)
+			(xy 205.74 370.84) (xy 218.44 370.84)
 		)
 		(stroke
 			(width 0)
@@ -9396,7 +9182,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 367.03) (xy 284.48 367.03)
+			(xy 179.07 370.84) (xy 190.5 370.84)
 		)
 		(stroke
 			(width 0)
@@ -9416,7 +9202,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 367.03) (xy 354.33 367.03)
+			(xy 233.68 370.84) (xy 260.35 370.84)
 		)
 		(stroke
 			(width 0)
@@ -9433,16 +9219,6 @@
 			(type default)
 		)
 		(uuid "7cb5bcc3-dffd-43d9-9c09-90cf1e376660")
-	)
-	(wire
-		(pts
-			(xy 190.5 360.68) (xy 190.5 364.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d9cb16e-412f-4de9-ae6f-d897d3a21253")
 	)
 	(wire
 		(pts
@@ -9586,7 +9362,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 265.43) (xy 347.98 265.43)
+			(xy 359.41 265.43) (xy 347.98 265.43)
 		)
 		(stroke
 			(width 0)
@@ -9603,16 +9379,6 @@
 			(type default)
 		)
 		(uuid "887b52bc-2135-427b-a28e-9926ab9c741e")
-	)
-	(wire
-		(pts
-			(xy 198.12 300.99) (xy 205.74 300.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88c023df-5b3b-4d36-904f-54b2ded42ca7")
 	)
 	(wire
 		(pts
@@ -9633,16 +9399,6 @@
 			(type default)
 		)
 		(uuid "89498a37-7af0-4686-9fb6-822a68df8400")
-	)
-	(wire
-		(pts
-			(xy 240.03 300.99) (xy 247.65 300.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8952c198-cbd5-4400-9990-063a2d87a105")
 	)
 	(wire
 		(pts
@@ -9736,7 +9492,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 367.03) (xy 232.41 367.03)
+			(xy 114.3 370.84) (xy 138.43 370.84)
 		)
 		(stroke
 			(width 0)
@@ -9806,7 +9562,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 262.89) (xy 347.98 262.89)
+			(xy 359.41 262.89) (xy 347.98 262.89)
 		)
 		(stroke
 			(width 0)
@@ -9856,6 +9612,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 295.91) (xy 247.65 295.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a745c864-3d8f-4bab-871c-f0d24598ad82")
+	)
+	(wire
+		(pts
 			(xy 430.53 214.63) (xy 431.8 214.63)
 		)
 		(stroke
@@ -9876,7 +9642,7 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 367.03) (xy 406.4 367.03)
+			(xy 300.99 370.84) (xy 312.42 370.84)
 		)
 		(stroke
 			(width 0)
@@ -9953,6 +9719,16 @@
 			(type default)
 		)
 		(uuid "b32597d8-6af7-4753-9c2f-b5e76f49cdbc")
+	)
+	(wire
+		(pts
+			(xy 393.7 359.41) (xy 396.24 359.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b38ec4d4-54d9-4d38-8473-f3144a64de43")
 	)
 	(wire
 		(pts
@@ -10083,16 +9859,6 @@
 			(type default)
 		)
 		(uuid "c5b987c3-9000-480f-a353-e75e979b4995")
-	)
-	(wire
-		(pts
-			(xy 190.5 372.11) (xy 190.5 373.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5c7b431-3b7a-42b8-b1f9-fb8e773ee906")
 	)
 	(wire
 		(pts
@@ -10246,16 +10012,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 360.68) (xy 167.64 360.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d63bd4cc-1a89-4b0a-bef7-887315058268")
-	)
-	(wire
-		(pts
 			(xy 406.4 97.79) (xy 414.02 97.79)
 		)
 		(stroke
@@ -10336,16 +10092,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 360.68) (xy 190.5 360.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1b9c440-4acb-4886-9d33-cce6dfa573d3")
-	)
-	(wire
-		(pts
 			(xy 312.42 212.09) (xy 322.58 212.09)
 		)
 		(stroke
@@ -10386,6 +10132,16 @@
 	)
 	(wire
 		(pts
+			(xy 367.03 360.68) (xy 369.57 360.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e53fae0f-dd03-472b-9656-a414136ac634")
+	)
+	(wire
+		(pts
 			(xy 444.5 199.39) (xy 449.58 199.39)
 		)
 		(stroke
@@ -10403,6 +10159,16 @@
 			(type default)
 		)
 		(uuid "e6d7f288-642e-4b78-94a3-b3fa28e687ca")
+	)
+	(wire
+		(pts
+			(xy 355.6 370.84) (xy 373.38 370.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6f08ddb-50f7-488a-982e-c3be19610e82")
 	)
 	(wire
 		(pts
@@ -10506,7 +10272,7 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 367.03) (xy 379.73 367.03)
+			(xy 275.59 370.84) (xy 285.75 370.84)
 		)
 		(stroke
 			(width 0)
@@ -10764,6 +10530,16 @@
 		)
 		(uuid "2e8d8af6-ddca-4e3b-b71d-ed21e5afe7e7")
 	)
+	(label "I2C2_GPIO"
+		(at 237.49 295.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2f66c469-416d-42e8-830e-86a97d829382")
+	)
 	(label "I2C1_SDA"
 		(at 358.14 252.73 180)
 		(effects
@@ -10784,16 +10560,6 @@
 		)
 		(uuid "33310be5-4431-4ff1-a03d-af043ea527a2")
 	)
-	(label "TURN_L"
-		(at 355.6 262.89 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3b7b8a58-326c-4e4f-86cb-86ab8beb5bc0")
-	)
 	(label "I2C3_INT"
 		(at 313.69 270.51 0)
 		(effects
@@ -10803,6 +10569,16 @@
 			(justify left bottom)
 		)
 		(uuid "3bd0cefa-bb3c-434d-8106-001b5295a053")
+	)
+	(label "I2C1_GPIO"
+		(at 359.41 262.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3cfbfe6b-bdb5-4bcc-b838-2121d18427f6")
 	)
 	(label "RST"
 		(at 259.08 118.11 270)
@@ -10974,18 +10750,8 @@
 		)
 		(uuid "64940a6e-113f-41cd-977e-e1587475811f")
 	)
-	(label "TURN_R"
-		(at 158.75 363.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "67533ae3-2831-4249-a6dd-43cecbd4a7fc")
-	)
-	(label "TURN_R"
-		(at 355.6 265.43 180)
+	(label "I2C2_GPIO"
+		(at 359.41 265.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11035,7 +10801,7 @@
 		(uuid "711c582e-a632-45da-96b1-7231684b8d4f")
 	)
 	(label "LED_INPUT"
-		(at 208.28 367.03 0)
+		(at 114.3 370.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11114,16 +10880,6 @@
 		)
 		(uuid "837cceda-d17b-4d51-a26c-f948bdf8196c")
 	)
-	(label "TURN_R"
-		(at 240.03 300.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "84348c61-2ce7-48be-9073-016ac4a95688")
-	)
 	(label "SPI2_GPIO2"
 		(at 359.41 245.11 180)
 		(effects
@@ -11133,16 +10889,6 @@
 			(justify right bottom)
 		)
 		(uuid "84c7c95f-d72f-4219-b8a6-63465ef320e7")
-	)
-	(label "TURN_L"
-		(at 198.12 300.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8531f1bb-7089-4f50-add2-3bae4a61bb0e")
 	)
 	(label "L_EN"
 		(at 353.06 240.03 180)
@@ -11283,6 +11029,16 @@
 			(justify right bottom)
 		)
 		(uuid "afdec8c6-72a2-45b5-af8f-b7e2a8f13dc7")
+	)
+	(label "I2C1_GPIO"
+		(at 196.85 295.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aff4bb24-4a6b-4328-9efe-a0b23bca5eb3")
 	)
 	(label "SENSE_LF"
 		(at 407.67 245.11 0)
@@ -11523,16 +11279,6 @@
 			(justify left bottom)
 		)
 		(uuid "ea590027-2384-4bd8-8953-d5074ebf8407")
-	)
-	(label "TURN_L"
-		(at 158.75 360.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ea9cd5b7-4ef6-4f4d-b612-40044015bca5")
 	)
 	(label "R_PWM_B"
 		(at 358.14 257.81 180)
@@ -12053,6 +11799,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 408.94 378.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08317e89-7857-4265-8f8a-70355788f353")
+		(property "Reference" "#PWR022"
+			(at 408.94 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 408.94 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 408.94 378.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 408.94 378.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 408.94 378.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a9d22bf-2cd1-43af-a54d-9d08fbcf50c6")
+		)
+		(instances
+			(project "MouseWB5"
+				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "2024-11-26_16-37-43:STBC08PMR")
 		(at 236.22 55.88 0)
 		(unit 1)
@@ -12219,82 +12031,6 @@
 			(project "MouseWB5"
 				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
 					(reference "M4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 171.45 363.22 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0be06e8c-7671-4819-9075-314a7a95c884")
-		(property "Reference" "R4"
-			(at 171.45 363.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "300r"
-			(at 171.45 365.252 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 171.45 364.998 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 363.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 171.45 363.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25102"
-			(at 171.45 363.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c50aed8c-e77a-4564-91ac-51d5f682ca85")
-		)
-		(pin "2"
-			(uuid "d6c01641-19d4-49fe-bbf4-acc4a77a33f7")
-		)
-		(instances
-			(project "MouseWB5"
-				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
-					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -12780,7 +12516,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 387.35 374.65 0)
+		(at 293.37 378.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12789,7 +12525,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a5c917f-a3e2-41a8-9a6a-3bd7bc426f65")
 		(property "Reference" "#PWR051"
-			(at 387.35 381 0)
+			(at 293.37 384.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12798,7 +12534,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 387.35 381 0)
+			(at 293.37 384.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12806,7 +12542,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 387.35 374.65 0)
+			(at 293.37 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12815,7 +12551,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 387.35 374.65 0)
+			(at 293.37 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12824,7 +12560,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 387.35 374.65 0)
+			(at 293.37 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13079,7 +12815,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 240.03 359.41 0)
+		(at 146.05 363.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13088,7 +12824,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c661502-c8b4-4073-9ddc-17d00ecb9698")
 		(property "Reference" "#PWR057"
-			(at 240.03 363.22 0)
+			(at 146.05 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13097,7 +12833,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 240.03 354.33 0)
+			(at 146.05 358.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13105,7 +12841,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 359.41 0)
+			(at 146.05 363.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13114,7 +12850,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 359.41 0)
+			(at 146.05 363.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13123,7 +12859,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 240.03 359.41 0)
+			(at 146.05 363.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13585,6 +13321,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 408.94 363.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "250cc2cd-474a-4b3a-be6a-f7ebc1c379fd")
+		(property "Reference" "#PWR0125"
+			(at 408.94 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 408.94 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 408.94 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 408.94 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 408.94 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f549bc2-4622-4bbf-9047-bced8c3f7a98")
+		)
+		(instances
+			(project "MouseWB5"
+				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
+					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 511.81 325.12 0)
 		(unit 1)
@@ -13744,7 +13546,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 414.02 367.03 0)
+		(at 320.04 370.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13753,7 +13555,7 @@
 		(fields_autoplaced yes)
 		(uuid "25eae7a9-255a-4201-873a-d91519897786")
 		(property "Reference" "LED7"
-			(at 425.45 360.7114 0)
+			(at 331.47 364.5214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13761,7 +13563,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 425.45 363.2514 0)
+			(at 331.47 367.0614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13769,7 +13571,7 @@
 			)
 		)
 		(property "Footprint" "1010rgbled:LED-SMD_4P-L1.0-W1.0-TL_XL-1010RGBC-WS2812B"
-			(at 415.29 374.65 0)
+			(at 321.31 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13779,7 +13581,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 416.56 376.555 0)
+			(at 322.58 380.365 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13789,7 +13591,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 414.02 367.03 0)
+			(at 320.04 370.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13798,7 +13600,7 @@
 			)
 		)
 		(property "LCSC" "C5349953"
-			(at 414.02 367.03 0)
+			(at 320.04 370.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14244,7 +14046,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 441.96 359.41 0)
+		(at 347.98 363.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14253,7 +14055,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e9ea17d-fa4d-446e-b491-1ab508d81ab7")
 		(property "Reference" "#PWR064"
-			(at 441.96 363.22 0)
+			(at 347.98 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14262,7 +14064,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 441.96 354.33 0)
+			(at 347.98 358.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14270,7 +14072,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 441.96 359.41 0)
+			(at 347.98 363.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14279,7 +14081,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 441.96 359.41 0)
+			(at 347.98 363.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14288,7 +14090,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 441.96 359.41 0)
+			(at 347.98 363.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14309,8 +14111,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 400.05 359.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ec86e51-97db-45c2-85fe-2ddb3be89e38")
+		(property "Reference" "C20"
+			(at 398.8816 356.489 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 401.193 356.489 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 403.86 358.4448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 400.05 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 400.05 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2168305"
+			(at 400.05 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4478e82-0539-4fa5-993d-ef4a5515a19e")
+		)
+		(pin "2"
+			(uuid "ad05a684-3d44-4981-8051-8e8f1fae8ab0")
+		)
+		(instances
+			(project "MouseWB5"
+				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+BATT")
-		(at 387.35 359.41 0)
+		(at 293.37 363.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14319,7 +14199,7 @@
 		(fields_autoplaced yes)
 		(uuid "32b9453a-b9c8-41d6-a906-d21d01ad79bd")
 		(property "Reference" "#PWR062"
-			(at 387.35 363.22 0)
+			(at 293.37 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14328,7 +14208,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 387.35 354.33 0)
+			(at 293.37 358.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14336,7 +14216,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 387.35 359.41 0)
+			(at 293.37 363.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14345,7 +14225,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 387.35 359.41 0)
+			(at 293.37 363.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14354,7 +14234,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 387.35 359.41 0)
+			(at 293.37 363.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14652,82 +14532,6 @@
 			(project "MouseWB5"
 				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
 					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 171.45 360.68 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "368660e6-e1d0-49e1-8783-c33c476b680e")
-		(property "Reference" "R3"
-			(at 171.45 360.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "300r"
-			(at 171.45 358.648 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 171.45 362.458 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 360.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 171.45 360.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25102"
-			(at 171.45 360.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0201dd3c-d897-4746-86f1-720fcca56261")
-		)
-		(pin "2"
-			(uuid "7cd03c85-7d09-46c0-8e0a-8792ae97d5db")
-		)
-		(instances
-			(project "MouseWB5"
-				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -15541,85 +15345,6 @@
 			(project "MouseWB5"
 				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
 					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 180.34 368.3 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ff0af2c-9fc7-433b-a183-8a5da43e5244")
-		(property "Reference" "D1"
-			(at 184.15 368.6174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 184.15 371.1574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 180.34 368.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 180.34 368.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 180.34 368.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C130719"
-			(at 180.34 368.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3d83d0c2-e035-4405-8a3f-b6f1bcb86e11")
-		)
-		(pin "2"
-			(uuid "da11b2c5-1ace-49d9-838b-ebc61b05c3ef")
-		)
-		(instances
-			(project "MouseWB5"
-				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -16541,7 +16266,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 292.1 367.03 0)
+		(at 198.12 370.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16550,7 +16275,7 @@
 		(fields_autoplaced yes)
 		(uuid "50ef669e-cc9e-4587-9e4b-39bf9adc67bd")
 		(property "Reference" "LED3"
-			(at 303.53 360.7114 0)
+			(at 209.55 364.5214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16558,7 +16283,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 303.53 363.2514 0)
+			(at 209.55 367.0614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16566,7 +16291,7 @@
 			)
 		)
 		(property "Footprint" "1010rgbled:LED-SMD_4P-L1.0-W1.0-TL_XL-1010RGBC-WS2812B"
-			(at 293.37 374.65 0)
+			(at 199.39 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16576,7 +16301,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 294.64 376.555 0)
+			(at 200.66 380.365 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16586,7 +16311,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 292.1 367.03 0)
+			(at 198.12 370.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16595,7 +16320,7 @@
 			)
 		)
 		(property "LCSC" "C5349953"
-			(at 292.1 367.03 0)
+			(at 198.12 370.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16883,6 +16608,72 @@
 			(project "MouseWB5"
 				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
 					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 367.03 360.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c4002c3-2e18-4016-9584-91029da4843f")
+		(property "Reference" "#PWR0127"
+			(at 367.03 364.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 367.03 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 367.03 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 367.03 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 367.03 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f69ed5db-6ffb-4c18-9608-e8e75660edf9")
+		)
+		(instances
+			(project "MouseWB5"
+				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -18235,72 +18026,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 190.5 373.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "73cae630-3c0a-4cd4-b00d-805359d01b36")
-		(property "Reference" "#PWR022"
-			(at 190.5 379.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 190.5 378.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 373.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 373.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 373.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "103d6460-0fd0-48e3-801d-7ea454255ee3")
-		)
-		(instances
-			(project "MouseWB5"
-				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 320.04 182.88 180)
 		(unit 1)
@@ -18596,7 +18321,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 265.43 367.03 0)
+		(at 171.45 370.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18605,7 +18330,7 @@
 		(fields_autoplaced yes)
 		(uuid "7bbb7675-22ec-4868-a1b5-ad9797ceb663")
 		(property "Reference" "LED2"
-			(at 276.86 360.7114 0)
+			(at 182.88 364.5214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18613,7 +18338,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 276.86 363.2514 0)
+			(at 182.88 367.0614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18621,7 +18346,7 @@
 			)
 		)
 		(property "Footprint" "1010rgbled:LED-SMD_4P-L1.0-W1.0-TL_XL-1010RGBC-WS2812B"
-			(at 266.7 374.65 0)
+			(at 172.72 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18631,7 +18356,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 267.97 376.555 0)
+			(at 173.99 380.365 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18641,7 +18366,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 265.43 367.03 0)
+			(at 171.45 370.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18650,7 +18375,7 @@
 			)
 		)
 		(property "LCSC" "C5349953"
-			(at 265.43 367.03 0)
+			(at 171.45 370.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18834,6 +18559,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 373.38 360.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8096a6e0-3b6c-4804-9f95-f21349c8ee0b")
+		(property "Reference" "C19"
+			(at 372.2116 357.759 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 374.523 357.759 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 377.19 359.7148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 373.38 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 373.38 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2168305"
+			(at 373.38 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9e37ff2-4e2e-41c5-ba49-2589fc784d60")
+		)
+		(pin "2"
+			(uuid "b9c785f1-018e-4f4d-8a61-fcd6edc50067")
+		)
+		(instances
+			(project "MouseWB5"
+				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 340.36 62.23 270)
 		(unit 1)
@@ -18911,7 +18714,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 441.96 374.65 0)
+		(at 347.98 378.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18920,7 +18723,7 @@
 		(fields_autoplaced yes)
 		(uuid "82dc373b-b898-4841-a37f-d6a5485827ea")
 		(property "Reference" "#PWR049"
-			(at 441.96 381 0)
+			(at 347.98 384.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18929,7 +18732,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 441.96 381 0)
+			(at 347.98 384.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18937,7 +18740,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 441.96 374.65 0)
+			(at 347.98 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18946,7 +18749,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 441.96 374.65 0)
+			(at 347.98 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18955,7 +18758,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 441.96 374.65 0)
+			(at 347.98 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19122,7 +18925,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 320.04 359.41 0)
+		(at 226.06 363.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19131,7 +18934,7 @@
 		(fields_autoplaced yes)
 		(uuid "8602609d-e451-4f22-8c89-fa984dde89ab")
 		(property "Reference" "#PWR060"
-			(at 320.04 363.22 0)
+			(at 226.06 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19140,7 +18943,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 320.04 354.33 0)
+			(at 226.06 358.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19148,7 +18951,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 320.04 359.41 0)
+			(at 226.06 363.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19157,7 +18960,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 320.04 359.41 0)
+			(at 226.06 363.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19166,7 +18969,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 320.04 359.41 0)
+			(at 226.06 363.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19253,16 +19056,16 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 441.96 367.03 0)
+		(at 381 370.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8f223ca6-c479-4a67-9270-d2f97abc1d51")
-		(property "Reference" "LED8"
-			(at 453.39 360.7114 0)
+		(uuid "8f219378-3f26-4c82-9624-dba0be179f3c")
+		(property "Reference" "LED9"
+			(at 392.43 364.5214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19270,15 +19073,15 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 453.39 363.2514 0)
+			(at 392.43 367.0614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "1010rgbled:LED-SMD_4P-L1.0-W1.0-TL_XL-1010RGBC-WS2812B"
-			(at 443.23 374.65 0)
+		(property "Footprint" "Library:1010ws2812"
+			(at 382.27 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19288,7 +19091,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 444.5 376.555 0)
+			(at 383.54 380.365 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19298,7 +19101,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 441.96 367.03 0)
+			(at 381 370.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19307,7 +19110,92 @@
 			)
 		)
 		(property "LCSC" "C5349953"
-			(at 441.96 367.03 0)
+			(at 381 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59fdc2a9-ccf4-4f5a-bac1-6925943e1a1d")
+		)
+		(pin "4"
+			(uuid "13b0af6d-9228-44e1-b45a-d0c55e0bf187")
+		)
+		(pin "3"
+			(uuid "e6b9c9aa-19c0-40fb-94f4-efd69b9a44e8")
+		)
+		(pin "2"
+			(uuid "abda997a-d7cf-42ca-9864-ec2179fe4eb2")
+		)
+		(instances
+			(project "MouseWB5"
+				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
+					(reference "LED9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 347.98 370.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f223ca6-c479-4a67-9270-d2f97abc1d51")
+		(property "Reference" "LED8"
+			(at 359.41 364.5214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 359.41 367.0614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "1010rgbled:LED-SMD_4P-L1.0-W1.0-TL_XL-1010RGBC-WS2812B"
+			(at 349.25 378.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 350.52 380.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 347.98 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5349953"
+			(at 347.98 370.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19461,6 +19349,72 @@
 			(project "MouseWB5"
 				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 381 378.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9376850c-59cc-4a4c-80e3-4e46279b44dd")
+		(property "Reference" "#PWR021"
+			(at 381 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 381 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 381 378.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381 378.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 381 378.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfbf363c-97ae-4de3-841a-c1151859d0d6")
+		)
+		(instances
+			(project "MouseWB5"
+				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -19743,6 +19697,91 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:WS2812B")
+		(at 408.94 370.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95513651-8944-4114-a35a-50738435b20b")
+		(property "Reference" "LED10"
+			(at 420.37 364.5214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 420.37 367.0614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:1010ws2812"
+			(at 410.21 378.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 411.48 380.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 408.94 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5349953"
+			(at 408.94 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f208e3ab-99b0-4d16-b318-f128152acf1d")
+		)
+		(pin "4"
+			(uuid "84dd6feb-4574-41cd-b3cd-4283e56f87e1")
+		)
+		(pin "3"
+			(uuid "83857150-9538-4f6d-8dae-d2b509762af1")
+		)
+		(pin "2"
+			(uuid "526f06c6-8ccc-4fe1-acc9-ad1b7e65e34f")
+		)
+		(instances
+			(project "MouseWB5"
+				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
+					(reference "LED10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 448.31 175.26 90)
 		(unit 1)
@@ -19822,6 +19861,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 377.19 360.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "973e95ea-46a0-4c0f-b7a1-93e74a50ba07")
+		(property "Reference" "#PWR0126"
+			(at 377.19 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 377.19 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 377.19 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 377.19 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 377.19 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11b2ab2b-945c-40c1-8c3b-4d78398338c7")
+		)
+		(instances
+			(project "MouseWB5"
+				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
+					(reference "#PWR0126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 511.81 353.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19888,7 +19993,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 361.95 374.65 0)
+		(at 267.97 378.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19897,7 +20002,7 @@
 		(fields_autoplaced yes)
 		(uuid "977b3b09-8c13-47d0-aaa8-d058d6f8b757")
 		(property "Reference" "#PWR052"
-			(at 361.95 381 0)
+			(at 267.97 384.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19906,7 +20011,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 361.95 381 0)
+			(at 267.97 384.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19914,7 +20019,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 361.95 374.65 0)
+			(at 267.97 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19923,7 +20028,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 361.95 374.65 0)
+			(at 267.97 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19932,7 +20037,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 361.95 374.65 0)
+			(at 267.97 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20544,7 +20649,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 387.35 367.03 0)
+		(at 293.37 370.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20553,7 +20658,7 @@
 		(fields_autoplaced yes)
 		(uuid "a0342440-b78b-412e-98b0-fb806cf276cc")
 		(property "Reference" "LED6"
-			(at 398.78 360.7114 0)
+			(at 304.8 364.5214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20561,7 +20666,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 398.78 363.2514 0)
+			(at 304.8 367.0614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20569,7 +20674,7 @@
 			)
 		)
 		(property "Footprint" "1010rgbled:LED-SMD_4P-L1.0-W1.0-TL_XL-1010RGBC-WS2812B"
-			(at 388.62 374.65 0)
+			(at 294.64 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20579,7 +20684,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 389.89 376.555 0)
+			(at 295.91 380.365 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20589,7 +20694,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 387.35 367.03 0)
+			(at 293.37 370.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20598,7 +20703,7 @@
 			)
 		)
 		(property "LCSC" "C5349953"
-			(at 387.35 367.03 0)
+			(at 293.37 370.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21124,7 +21229,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 240.03 374.65 0)
+		(at 146.05 378.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21133,7 +21238,7 @@
 		(fields_autoplaced yes)
 		(uuid "a8114b65-1329-4280-9b16-720fe65da14b")
 		(property "Reference" "#PWR053"
-			(at 240.03 381 0)
+			(at 146.05 384.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21142,7 +21247,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 240.03 381 0)
+			(at 146.05 384.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21150,7 +21255,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 374.65 0)
+			(at 146.05 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21159,7 +21264,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 374.65 0)
+			(at 146.05 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21168,7 +21273,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 240.03 374.65 0)
+			(at 146.05 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21400,85 +21505,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 190.5 368.3 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a9748571-2424-4453-bdcd-79482d2e6a08")
-		(property "Reference" "D2"
-			(at 194.31 368.6174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 194.31 371.1574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 190.5 368.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 190.5 368.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 190.5 368.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C130719"
-			(at 190.5 368.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "05be9b1c-b7e4-4931-a35f-eb575e61f17a")
-		)
-		(pin "2"
-			(uuid "4a0730b3-34c8-4aff-9c6b-a5c3b600ceeb")
-		)
-		(instances
-			(project "MouseWB5"
-				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 416.56 231.14 90)
 		(unit 1)
@@ -21547,7 +21573,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 292.1 374.65 0)
+		(at 198.12 378.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21556,7 +21582,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa09f673-8c54-4577-bd41-7599b200aa69")
 		(property "Reference" "#PWR055"
-			(at 292.1 381 0)
+			(at 198.12 384.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21565,7 +21591,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 292.1 381 0)
+			(at 198.12 384.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21573,7 +21599,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 292.1 374.65 0)
+			(at 198.12 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21582,7 +21608,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 292.1 374.65 0)
+			(at 198.12 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21591,7 +21617,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 292.1 374.65 0)
+			(at 198.12 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21672,72 +21698,6 @@
 			(project "MouseWB5"
 				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
 					(reference "#PWR0115")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 180.34 373.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aae1ed31-e3da-4d84-b2b0-a237f9d73f2b")
-		(property "Reference" "#PWR021"
-			(at 180.34 379.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 180.34 378.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 373.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 373.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 373.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "95d91913-a2f3-4971-b5c4-24aa4a9c2588")
-		)
-		(instances
-			(project "MouseWB5"
-				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
-					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -21877,7 +21837,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 320.04 367.03 0)
+		(at 226.06 370.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21886,7 +21846,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae092daf-ee15-4ac4-8004-ebade6a02de4")
 		(property "Reference" "LED4"
-			(at 331.47 360.7114 0)
+			(at 237.49 364.5214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21894,7 +21854,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 331.47 363.2514 0)
+			(at 237.49 367.0614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21902,7 +21862,7 @@
 			)
 		)
 		(property "Footprint" "1010rgbled:LED-SMD_4P-L1.0-W1.0-TL_XL-1010RGBC-WS2812B"
-			(at 321.31 374.65 0)
+			(at 227.33 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21912,7 +21872,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 322.58 376.555 0)
+			(at 228.6 380.365 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21922,7 +21882,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 320.04 367.03 0)
+			(at 226.06 370.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21931,7 +21891,7 @@
 			)
 		)
 		(property "LCSC" "C5349953"
-			(at 320.04 367.03 0)
+			(at 226.06 370.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23151,6 +23111,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 403.86 359.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c02b1152-09e0-4c20-8fa6-81c9331f08cd")
+		(property "Reference" "#PWR0129"
+			(at 403.86 365.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 403.86 365.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 403.86 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 403.86 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 403.86 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3be933e-0f3a-4a8d-ad81-834299615da0")
+		)
+		(instances
+			(project "MouseWB5"
+				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
+					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "+3V3_1")
 		(lib_id "power:+3V3")
 		(at 340.36 170.18 0)
@@ -23968,7 +23994,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 265.43 359.41 0)
+		(at 171.45 363.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23977,7 +24003,7 @@
 		(fields_autoplaced yes)
 		(uuid "cd7f541a-9fc6-4e15-96ff-049e1043c9e2")
 		(property "Reference" "#PWR058"
-			(at 265.43 363.22 0)
+			(at 171.45 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23986,7 +24012,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 265.43 354.33 0)
+			(at 171.45 358.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23994,7 +24020,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 265.43 359.41 0)
+			(at 171.45 363.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24003,7 +24029,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 359.41 0)
+			(at 171.45 363.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24012,7 +24038,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 265.43 359.41 0)
+			(at 171.45 363.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24392,7 +24418,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 320.04 374.65 0)
+		(at 226.06 378.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24401,7 +24427,7 @@
 		(fields_autoplaced yes)
 		(uuid "d4818805-d478-41b6-9062-f99e08c25c43")
 		(property "Reference" "#PWR056"
-			(at 320.04 381 0)
+			(at 226.06 384.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24410,7 +24436,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 320.04 381 0)
+			(at 226.06 384.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24418,7 +24444,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 320.04 374.65 0)
+			(at 226.06 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24427,7 +24453,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 320.04 374.65 0)
+			(at 226.06 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24436,7 +24462,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 320.04 374.65 0)
+			(at 226.06 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24600,7 +24626,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 361.95 367.03 0)
+		(at 267.97 370.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24609,7 +24635,7 @@
 		(fields_autoplaced yes)
 		(uuid "d8652078-d01e-4eb6-9bbd-43c6b2c20922")
 		(property "Reference" "LED5"
-			(at 373.38 360.7114 0)
+			(at 279.4 364.5214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24617,7 +24643,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 373.38 363.2514 0)
+			(at 279.4 367.0614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24625,7 +24651,7 @@
 			)
 		)
 		(property "Footprint" "1010rgbled:LED-SMD_4P-L1.0-W1.0-TL_XL-1010RGBC-WS2812B"
-			(at 363.22 374.65 0)
+			(at 269.24 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24635,7 +24661,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 364.49 376.555 0)
+			(at 270.51 380.365 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24645,7 +24671,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 361.95 367.03 0)
+			(at 267.97 370.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24654,7 +24680,7 @@
 			)
 		)
 		(property "LCSC" "C5349953"
-			(at 361.95 367.03 0)
+			(at 267.97 370.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25047,7 +25073,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 361.95 359.41 0)
+		(at 267.97 363.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25056,7 +25082,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc4c192c-cdaf-4f16-bd37-4769e7450962")
 		(property "Reference" "#PWR061"
-			(at 361.95 363.22 0)
+			(at 267.97 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25065,7 +25091,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 361.95 354.33 0)
+			(at 267.97 358.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25073,7 +25099,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 361.95 359.41 0)
+			(at 267.97 363.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25082,7 +25108,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 361.95 359.41 0)
+			(at 267.97 363.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25091,7 +25117,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 361.95 359.41 0)
+			(at 267.97 363.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25466,7 +25492,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 414.02 359.41 0)
+		(at 320.04 363.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25475,7 +25501,7 @@
 		(fields_autoplaced yes)
 		(uuid "e1ab08cf-c0f3-4c3e-9a51-1679af8e4536")
 		(property "Reference" "#PWR063"
-			(at 414.02 363.22 0)
+			(at 320.04 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25484,7 +25510,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 414.02 354.33 0)
+			(at 320.04 358.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25492,7 +25518,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 414.02 359.41 0)
+			(at 320.04 363.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25501,7 +25527,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 414.02 359.41 0)
+			(at 320.04 363.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25510,7 +25536,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 414.02 359.41 0)
+			(at 320.04 363.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25740,6 +25766,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 393.7 359.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6a8c82c-0954-4af2-bf73-9727ca5dd236")
+		(property "Reference" "#PWR0128"
+			(at 393.7 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 393.7 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 393.7 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 393.7 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 393.7 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eebc13b6-896b-4507-9991-cc0d10febe91")
+		)
+		(instances
+			(project "MouseWB5"
+				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
+					(reference "#PWR0128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 414.02 74.93 0)
@@ -25873,7 +25965,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 240.03 367.03 0)
+		(at 146.05 370.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25882,7 +25974,7 @@
 		(fields_autoplaced yes)
 		(uuid "eaaaaeb1-4fec-4302-b2c9-2a1b51ef8a0f")
 		(property "Reference" "LED1"
-			(at 251.46 360.7114 0)
+			(at 157.48 364.5214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25890,7 +25982,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 251.46 363.2514 0)
+			(at 157.48 367.0614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25898,7 +25990,7 @@
 			)
 		)
 		(property "Footprint" "1010rgbled:LED-SMD_4P-L1.0-W1.0-TL_XL-1010RGBC-WS2812B"
-			(at 241.3 374.65 0)
+			(at 147.32 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25908,7 +26000,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 242.57 376.555 0)
+			(at 148.59 380.365 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25918,7 +26010,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 240.03 367.03 0)
+			(at 146.05 370.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25927,7 +26019,7 @@
 			)
 		)
 		(property "LCSC" "C5349953"
-			(at 240.03 367.03 0)
+			(at 146.05 370.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25958,7 +26050,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 292.1 359.41 0)
+		(at 198.12 363.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25967,7 +26059,7 @@
 		(fields_autoplaced yes)
 		(uuid "ebac9726-02fb-477a-a82b-3ccebf24a91a")
 		(property "Reference" "#PWR059"
-			(at 292.1 363.22 0)
+			(at 198.12 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25976,7 +26068,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 292.1 354.33 0)
+			(at 198.12 358.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25984,7 +26076,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 292.1 359.41 0)
+			(at 198.12 363.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25993,7 +26085,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 292.1 359.41 0)
+			(at 198.12 363.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26002,7 +26094,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 292.1 359.41 0)
+			(at 198.12 363.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26089,7 +26181,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 265.43 374.65 0)
+		(at 171.45 378.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26098,7 +26190,7 @@
 		(fields_autoplaced yes)
 		(uuid "ef7bd461-82d6-40a2-a474-d4cdd8444a85")
 		(property "Reference" "#PWR054"
-			(at 265.43 381 0)
+			(at 171.45 384.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26107,7 +26199,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 265.43 381 0)
+			(at 171.45 384.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26115,7 +26207,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 265.43 374.65 0)
+			(at 171.45 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26124,7 +26216,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 374.65 0)
+			(at 171.45 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26133,7 +26225,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 265.43 374.65 0)
+			(at 171.45 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26371,7 +26463,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 414.02 374.65 0)
+		(at 320.04 378.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26380,7 +26472,7 @@
 		(fields_autoplaced yes)
 		(uuid "f5077b47-d048-4357-800a-bb51bb4641c5")
 		(property "Reference" "#PWR050"
-			(at 414.02 381 0)
+			(at 320.04 384.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26389,7 +26481,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 414.02 381 0)
+			(at 320.04 384.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26397,7 +26489,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 414.02 374.65 0)
+			(at 320.04 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26406,7 +26498,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 414.02 374.65 0)
+			(at 320.04 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26415,7 +26507,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 414.02 374.65 0)
+			(at 320.04 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26938,6 +27030,72 @@
 			(project ""
 				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 381 363.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc93765d-d364-41e1-9961-0e6f1fe9aa14")
+		(property "Reference" "#PWR0124"
+			(at 381 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 381 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 381 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 381 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70458d52-40c0-4d03-b886-ab04c9e9f998")
+		)
+		(instances
+			(project "MouseWB5"
+				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
