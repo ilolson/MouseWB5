@@ -8593,7 +8593,7 @@
 				)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "22k"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8629,7 +8629,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C138003"
+		(property "LCSC" "C82868"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32104,7 +32104,7 @@
 				)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "22k"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -32140,7 +32140,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C138003"
+		(property "LCSC" "C82868"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")

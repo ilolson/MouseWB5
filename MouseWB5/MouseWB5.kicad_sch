@@ -18476,7 +18476,7 @@
 				)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "22k"
 			(at 496.824 268.224 90)
 			(effects
 				(font
@@ -18511,7 +18511,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C138003"
+		(property "LCSC" "C82868"
 			(at 496.57 270.51 0)
 			(effects
 				(font
@@ -25343,7 +25343,7 @@
 				)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "22k"
 			(at 498.094 212.344 90)
 			(effects
 				(font
@@ -25378,7 +25378,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C138003"
+		(property "LCSC" "C82868"
 			(at 497.84 214.63 0)
 			(effects
 				(font
