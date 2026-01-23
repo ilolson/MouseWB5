@@ -11763,7 +11763,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2655100"
+		(property "LCSC" "C481766"
 			(at 434.34 316.23 0)
 			(effects
 				(font
@@ -12013,7 +12013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
 			(at 411.48 252.73 0)
 			(effects
 				(font
@@ -12040,7 +12040,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C160388"
+		(property "LCSC" "C161690"
 			(at 411.48 252.73 0)
 			(effects
 				(font
@@ -12491,7 +12491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
 			(at 411.48 186.69 0)
 			(effects
 				(font
@@ -12518,7 +12518,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C160388"
+		(property "LCSC" "C161690"
 			(at 411.48 186.69 0)
 			(effects
 				(font
@@ -26581,7 +26581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
 			(at 411.48 196.85 0)
 			(effects
 				(font
@@ -26608,7 +26608,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C160388"
+		(property "LCSC" "C161690"
 			(at 411.48 196.85 0)
 			(effects
 				(font
@@ -26724,7 +26724,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
 			(at 271.78 231.14 0)
 			(effects
 				(font
@@ -26751,7 +26751,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C160388"
+		(property "LCSC" "C161690"
 			(at 271.78 231.14 90)
 			(effects
 				(font
@@ -28534,7 +28534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
 			(at 411.48 242.57 0)
 			(effects
 				(font
@@ -28561,7 +28561,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C160388"
+		(property "LCSC" "C161690"
 			(at 411.48 242.57 0)
 			(effects
 				(font
