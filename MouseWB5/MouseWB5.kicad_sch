@@ -10518,7 +10518,7 @@
 		)
 		(uuid "2e8d8af6-ddca-4e3b-b71d-ed21e5afe7e7")
 	)
-	(label "I2C2_GPIO"
+	(label "I2C3_GPIO"
 		(at 237.49 295.91 0)
 		(effects
 			(font
@@ -10738,7 +10738,7 @@
 		)
 		(uuid "64940a6e-113f-41cd-977e-e1587475811f")
 	)
-	(label "I2C2_GPIO"
+	(label "I2C3_GPIO"
 		(at 359.41 265.43 180)
 		(effects
 			(font
