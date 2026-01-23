@@ -7855,6 +7855,12 @@
 		(uuid "6eb4b105-20a6-4575-b5a5-5b17548305f3")
 	)
 	(junction
+		(at 347.98 275.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7149ffe4-86bb-45d1-bec6-073149440f8d")
+	)
+	(junction
 		(at 414.02 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7995,14 +8001,6 @@
 		(uuid "24b8720e-7d2e-4d14-bbd8-fe88e689100c")
 	)
 	(no_connect
-		(at 347.98 273.05)
-		(uuid "2acef339-14f7-4b4f-a63e-317f20e4d1ee")
-	)
-	(no_connect
-		(at 347.98 275.59)
-		(uuid "384c781e-cf85-4080-b55d-9a070b3ed3ff")
-	)
-	(no_connect
 		(at 247.65 298.45)
 		(uuid "46b7d98b-3ff1-4630-8003-df7e1aa725cf")
 	)
@@ -8139,6 +8137,16 @@
 			(type default)
 		)
 		(uuid "09d0f310-4016-4146-9ce1-8b1beaea0fb3")
+	)
+	(wire
+		(pts
+			(xy 347.98 275.59) (xy 347.98 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c70fb26-73e5-4794-a4b2-9a9fa7c951aa")
 	)
 	(wire
 		(pts
@@ -8769,6 +8777,16 @@
 			(type default)
 		)
 		(uuid "56e82c3a-d767-4e60-9f13-2df085114a65")
+	)
+	(wire
+		(pts
+			(xy 347.98 273.05) (xy 347.98 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57308a94-6b36-49dc-9a83-06b1b644b1e0")
 	)
 	(wire
 		(pts
@@ -19764,6 +19782,71 @@
 			(project "MouseWB5"
 				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 347.98 276.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8e3762a3-53d2-47a8-b9f1-dea71ddfd970")
+		(property "Reference" "#PWR0142"
+			(at 347.98 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 347.98 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 347.98 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 347.98 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 347.98 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e1ffe5e-a3d8-4a0f-8f9c-ed8de06e5d53")
+		)
+		(instances
+			(project "MouseWB5"
+				(path "/3003f723-e5bb-4cdb-ac11-d8017cbd2609"
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
